@@ -40,7 +40,6 @@ const generateEventDescription = (
   { overview, url, themoviedb },
   performance,
 ) => {
-  console.log(">>> generateEventDescription", themoviedb);
   let description = "";
   if (performance.screen)
     description += `Showing in screen ${performance.screen}\n`;
