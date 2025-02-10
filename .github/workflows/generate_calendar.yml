@@ -1,0 +1,43 @@
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [release_event]
+
+name: Generate Calendar
+
+jobs:
+  generate_calendar:
+    name: Generate and Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: .node-version
+      - run: npm install
+      - uses: robinraju/release-downloader@v1
+        with:
+          repository: "clusterflick/data-transformed"
+          latest: true
+          fileName: "*"
+          out-file-path: "transformed-data"
+
+      - name: Generate Calendar
+        run: npm run generate-calendar
+
+      - name: Generate Tag
+        run: echo "TAG=$(TZ=Europe/London date +'%Y%m%d.%H%M%S')" >> $GITHUB_ENV
+      - uses: ncipollo/release-action@v1
+        id: release
+        with:
+          allowUpdates: false
+          artifactErrorsFailBuild: true
+          artifacts: "calendar-data/*"
+          makeLatest: true
+          tag: ${{ env.TAG }}
+          commit: main
+          body: |
+            Created by job ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      - name: Output summary
+        run: |
+          echo "🔖 New release - ${{ steps.release.outputs.html_url }}" >> $GITHUB_STEP_SUMMARY

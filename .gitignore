@@ -1,3 +1,6 @@
+transformed-data/*
+calendar-data/*
+
 # Logs
 logs
 *.log

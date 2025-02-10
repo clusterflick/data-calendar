@@ -1,0 +1,17 @@
+{
+  "name": "data-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runs scripts to create calendar feeds from transformed data",
+  "author": "Alistair Brown <github@alistairjcbrown.com>",
+  "license": "MIT",
+  "scripts": {
+    "generate-calendar": "node scripts/generate-calendar.js"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "ics": "^3.8.1",
+    "replace-special-characters": "^1.2.7",
+    "scripts": "github:clusterflick/scripts"
+  }
+}
