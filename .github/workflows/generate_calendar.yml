@@ -15,6 +15,21 @@ jobs:
         with:
           node-version-file: .node-version
       - run: npm install
+
+      - name: Check API Rate Limit
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
+        run: |
+          RATE_LIMIT=$(curl -s -H "Authorization: token $GH_TOKEN" https://api.github.com/rate_limit)
+          REMAINING=$(echo "$RATE_LIMIT" | jq '.resources.core.remaining')
+          LIMIT=$(echo "$RATE_LIMIT" | jq '.resources.core.limit')
+          RESET_TIME=$(echo "$RATE_LIMIT" | jq '.resources.core.reset')
+          SECONDS_UNTIL_RESET=$((RESET_TIME - $(date +%s)))
+          MINS=$((SECONDS_UNTIL_RESET / 60))
+          SECS=$((SECONDS_UNTIL_RESET % 60))
+          echo "📊 Rate limit: $REMAINING/$LIMIT remaining"
+          echo "⏰ Resets in ${MINS}m ${SECS}s ($(date -d @$RESET_TIME '+%H:%M:%S %Z'))"
+
       - uses: robinraju/release-downloader@v1
         with:
           token: ${{ secrets.PAT }}
