@@ -46,4 +46,8 @@ if needed.
 
 ## Maintenance
 
-No API keys are required for this workflow as it only processes existing data.
+### Dependencies
+
+The workflow requires a GitHub secret:
+
+- `PAT` - Personal Access Token for downloading releases from other repositories
