@@ -1,6 +1,11 @@
 transformed-data/*
 calendar-data/*
 
+# OS / local
+.DS_Store
+Thumbs.db
+desktop.ini
+
 # Logs
 logs
 *.log
