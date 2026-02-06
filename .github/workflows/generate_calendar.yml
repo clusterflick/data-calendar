@@ -30,7 +30,7 @@ jobs:
           echo "📊 Rate limit: $REMAINING/$LIMIT remaining"
           echo "⏰ Resets in ${MINS}m ${SECS}s ($(date -d @$RESET_TIME '+%H:%M:%S %Z'))"
 
-      - uses: robinraju/release-downloader@v1
+      - uses: clusterflick/release-downloader@v1
         with:
           token: ${{ secrets.PAT }}
           repository: "clusterflick/data-transformed"
