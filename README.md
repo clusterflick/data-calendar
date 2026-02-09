@@ -223,7 +223,7 @@ is listed below and can be used with the download URL pattern above.
 | Vue Westfield London | [`myvue.com-westfield.ics`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-westfield.ics) |
 | Vue Westfield Stratford | [`myvue.com-westfield-stratford-city.ics`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-westfield-stratford-city.ics) |
 | Vue Wood Green | [`myvue.com-wood-green.ics`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-wood-green.ics) |
-| Czech Centre | [`mzv.gov.cz-london.ics`](https://github.com/clusterflick/data-calendar/releases/latest/download/mzv.gov.cz-london.ics) |
+| Czech Centre | [`london.czechcentres.cz.ics`](https://github.com/clusterflick/data-calendar/releases/latest/download/london.czechcentres.cz.ics) |
 | Women's Museum | [`newtownculture.org-womens-museum.ics`](https://github.com/clusterflick/data-calendar/releases/latest/download/newtownculture.org-womens-museum.ics) |
 | ODEON Luxe Acton | [`odeon.co.uk-acton.ics`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-acton.ics) |
 | ODEON Beckenham | [`odeon.co.uk-beckenham.ics`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-beckenham.ics) |
