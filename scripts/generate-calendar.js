@@ -4,6 +4,7 @@ const { format } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
 const ics = require("ics");
 const replaceSpecialCharacters = require("replace-special-characters");
+const { getCinemaAttributes } = require("scripts/cinemas");
 
 const readJSON = async (filePath) => {
   const data = await fs.readFile(filePath, "utf8");
@@ -90,8 +91,7 @@ async function getCinemaNames() {
     try {
       const cinemaPath = path.join(process.cwd(), "transformed-data", cinema);
       const movies = await readJSON(cinemaPath);
-      const { attributes } = require(`scripts/cinemas/${cinema}`);
-      const { url, name, address, geo } = attributes;
+      const { url, name, address, geo } = getCinemaAttributes(cinema);
 
       icsFormattedEvents = movies.reduce((events, movie) => {
         const duration = getDuration(movie);
