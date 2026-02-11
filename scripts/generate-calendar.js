@@ -87,12 +87,14 @@ async function getCinemaNames() {
   for (const cinema of cinemas) {
     console.log(`[🎞️  Cinema: ${cinema}]`);
     const start = Date.now();
+    let calName;
     let icsFormattedEvents;
     try {
       const cinemaPath = path.join(process.cwd(), "transformed-data", cinema);
       const movies = await readJSON(cinemaPath);
       const { url, name, address, geo } = getCinemaAttributes(cinema);
 
+      calName = name;
       icsFormattedEvents = movies.reduce((events, movie) => {
         const duration = getDuration(movie);
         const moviePerformances = movie.performances.map((performance) => ({
@@ -113,7 +115,7 @@ async function getCinemaNames() {
       throw new Error("Error generating events");
     }
 
-    const { error, value } = ics.createEvents(icsFormattedEvents);
+    const { error, value } = ics.createEvents(icsFormattedEvents, { calName });
     if (error) {
       console.log(` - ❌ Error generating`, error);
       throw new Error("Error generating ICS format");
