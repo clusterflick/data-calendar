@@ -83,13 +83,14 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 240 supported venues. The calendar filename for each venue
+There are currently 242 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
 | --- | --- |
 | Austrian Cultural Forum London | [`acflondon.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/acflondon.org) |
 | ActOne Cinema | [`actonecinema.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/actonecinema.co.uk) |
+| All is Joy Studios | [`allisjoysoho.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/allisjoysoho.com) |
 | The Foundry | [`aplaceforchange.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/aplaceforchange.co.uk) |
 | ArtHouse Crouch End | [`arthousecrouchend.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/arthousecrouchend.co.uk) |
 | JOIA | [`artotel.com-battersea-power-station`](https://github.com/clusterflick/data-calendar/releases/latest/download/artotel.com-battersea-power-station) |
@@ -176,6 +177,7 @@ is listed below and can be used with the download URL pattern above.
 | Freud Museum London | [`freud.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/freud.org.uk) |
 | Frontline Club | [`frontlineclub.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/frontlineclub.com) |
 | Fulham Pier | [`fulhampier.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/fulhampier.com) |
+| Galleria Objets | [`objetstrouves.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/objetstrouves.co.uk) |
 | Genesis Cinema | [`genesiscinema.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/genesiscinema.co.uk) |
 | Goethe-Institut London | [`goethe.de`](https://github.com/clusterflick/data-calendar/releases/latest/download/goethe.de) |
 | Goldsmiths | [`gold.ac.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/gold.ac.uk) |
