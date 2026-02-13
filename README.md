@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 242 supported venues. The calendar filename for each venue
+There are currently 243 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -97,7 +97,8 @@ is listed below and can be used with the download URL pattern above.
 | Art'otel London Hoxton | [`artotel.com-hoxton`](https://github.com/clusterflick/data-calendar/releases/latest/download/artotel.com-hoxton) |
 | Backyard Cinema | [`backyardcinema.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/backyardcinema.co.uk) |
 | The Barbican | [`barbican.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/barbican.org.uk) |
-| Birkbeck | [`bbk.ac.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/bbk.ac.uk) |
+| Birkbeck Central | [`bbk.ac.uk-central`](https://github.com/clusterflick/data-calendar/releases/latest/download/bbk.ac.uk-central) |
+| Birkbeck Cinema | [`bbk.ac.uk-cinema`](https://github.com/clusterflick/data-calendar/releases/latest/download/bbk.ac.uk-cinema) |
 | The Beehive Pub | [`beehiven17.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/beehiven17.com) |
 | Beer Merchants Tap | [`beermerchantstap.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/beermerchantstap.com) |
 | Croydon Sports Arena | [`better.org.uk-croydon-sports-arena`](https://github.com/clusterflick/data-calendar/releases/latest/download/better.org.uk-croydon-sports-arena) |
