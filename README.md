@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 243 supported venues. The calendar filename for each venue
+There are currently 244 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -292,6 +292,7 @@ is listed below and can be used with the download URL pattern above.
 | Siobhan Davies Studios | [`siobhandavies.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/siobhandavies.com) |
 | The Soho Screening Rooms | [`sohoscreeningrooms.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/sohoscreeningrooms.co.uk) |
 | The 1850 | [`stmarys.ac.uk-the-1850`](https://github.com/clusterflick/data-calendar/releases/latest/download/stmarys.ac.uk-the-1850) |
+| St Matthias Church | [`stmchurch.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/stmchurch.co.uk) |
 | Strongroom Bar | [`strongroombar.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/strongroombar.com) |
 | Sydenham Arts | [`sydenhamarts.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/sydenhamarts.co.uk) |
 | Tate Britain | [`tate.org.uk-tate-britain`](https://github.com/clusterflick/data-calendar/releases/latest/download/tate.org.uk-tate-britain) |
