@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 245 supported venues. The calendar filename for each venue
+There are currently 250 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -333,6 +333,11 @@ is listed below and can be used with the download URL pattern above.
 | Whitechapel Gallery | [`whitechapelgallery.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/whitechapelgallery.org) |
 | The Wiener Holocaust Library | [`wienerholocaustlibrary.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/wienerholocaustlibrary.org) |
 | William The Fourth | [`william-the-fourth.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/william-the-fourth.com) |
+| not/nowhere | [`not-nowhere.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/not-nowhere.org) |
+| The Refinery Citypoint | [`drakeandmorgan.co.uk-the-refinery-citypoint`](https://github.com/clusterflick/data-calendar/releases/latest/download/drakeandmorgan.co.uk-the-refinery-citypoint) |
+| The Moniker | [`drakeandmorgan.co.uk-the-moniker`](https://github.com/clusterflick/data-calendar/releases/latest/download/drakeandmorgan.co.uk-the-moniker) |
+| Parlour | [`parlourkensal.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/parlourkensal.com) |
+| The Vine | [`thevinenw5.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/thevinenw5.co.uk) |
 
 ## Schedule
 
