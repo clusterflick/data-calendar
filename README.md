@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 251 supported venues. The calendar filename for each venue
+There are currently 250 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -232,7 +232,6 @@ is listed below and can be used with the download URL pattern above.
 | Women's Museum | [`newtownculture.org-womens-museum`](https://github.com/clusterflick/data-calendar/releases/latest/download/newtownculture.org-womens-museum) |
 | ODEON Luxe Acton | [`odeon.co.uk-acton`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-acton) |
 | ODEON Beckenham | [`odeon.co.uk-beckenham`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-beckenham) |
-| ODEON Camden | [`odeon.co.uk-camden`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-camden) |
 | ODEON Greenwich | [`odeon.co.uk-greenwich`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-greenwich) |
 | ODEON Luxe Haymarket | [`odeon.co.uk-haymarket`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-haymarket) |
 | ODEON Luxe Holloway | [`odeon.co.uk-holloway`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-holloway) |
