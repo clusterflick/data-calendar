@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 250 supported venues. The calendar filename for each venue
+There are currently 252 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -251,6 +251,7 @@ is listed below and can be used with the download URL pattern above.
 | ODEON Wimbledon | [`odeon.co.uk-wimbledon`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-wimbledon) |
 | The Olympic Cinema | [`olympiccinema.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/olympiccinema.com) |
 | Omniplex Sutton | [`omniplex.co.uk-sutton`](https://github.com/clusterflick/data-calendar/releases/latest/download/omniplex.co.uk-sutton) |
+| Otter Chaos | [`otterchaos.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/otterchaos.co.uk) |
 | Peckham Levels | [`peckhamlevels.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/peckhamlevels.org) |
 | Peckhamplex | [`peckhamplex.london`](https://github.com/clusterflick/data-calendar/releases/latest/download/peckhamplex.london) |
 | Pelican House | [`pelicanhouse.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/pelicanhouse.org) |
@@ -330,6 +331,7 @@ is listed below and can be used with the download URL pattern above.
 | KEF Music Gallery London | [`uk.kef.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/uk.kef.com) |
 | Vagina Museum | [`vaginamuseum.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/vaginamuseum.co.uk) |
 | Waltham Forest Town Hall | [`walthamforest.gov.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/walthamforest.gov.uk) |
+| Walthamstow Trades Hall | [`walthamstowtradeshall.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/walthamstowtradeshall.com) |
 | Whitechapel Gallery | [`whitechapelgallery.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/whitechapelgallery.org) |
 | The Wiener Holocaust Library | [`wienerholocaustlibrary.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/wienerholocaustlibrary.org) |
 | William The Fourth | [`william-the-fourth.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/william-the-fourth.com) |
