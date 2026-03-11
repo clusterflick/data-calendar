@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 252 supported venues. The calendar filename for each venue
+There are currently 253 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -229,6 +229,7 @@ is listed below and can be used with the download URL pattern above.
 | Vue Westfield Stratford | [`myvue.com-westfield-stratford-city`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-westfield-stratford-city) |
 | Vue Wood Green | [`myvue.com-wood-green`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-wood-green) |
 | Czech Centre | [`london.czechcentres.cz`](https://github.com/clusterflick/data-calendar/releases/latest/download/london.czechcentres.cz) |
+| Newington Green Meeting House | [`newingtongreenmeetinghouse.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/newingtongreenmeetinghouse.org.uk) |
 | Women's Museum | [`newtownculture.org-womens-museum`](https://github.com/clusterflick/data-calendar/releases/latest/download/newtownculture.org-womens-museum) |
 | ODEON Luxe Acton | [`odeon.co.uk-acton`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-acton) |
 | ODEON Beckenham | [`odeon.co.uk-beckenham`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-beckenham) |
