@@ -187,6 +187,7 @@ is listed below and can be used with the download URL pattern above.
 | Goldsmiths | [`gold.ac.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/gold.ac.uk) |
 | Good Hotel London | [`goodhotel.co-london`](https://github.com/clusterflick/data-calendar/releases/latest/download/goodhotel.co-london) |
 | Good Shepherd Studios | [`goodshepherdstudios.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/goodshepherdstudios.com) |
+| Hypha Studio Kentish Town | [`hyphastudios.com-kentish-town`](https://github.com/clusterflick/data-calendar/releases/latest/download/hyphastudios.com-kentish-town) |
 | Institute of Contemporary Arts | [`ica.art`](https://github.com/clusterflick/data-calendar/releases/latest/download/ica.art) |
 | Imperial College London | [`imperial.ac.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/imperial.ac.uk) |
 | Ciné Lumière | [`institut-francais.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/institut-francais.org.uk) |
