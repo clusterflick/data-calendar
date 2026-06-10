@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 254 supported venues. The calendar filename for each venue
+There are currently 256 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -286,6 +286,8 @@ is listed below and can be used with the download URL pattern above.
 | Rivoli Ballroom | [`rivoliballroom.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/rivoliballroom.com) |
 | The Rocketvan Coffee Shop and The Box Shop Bar | [`rocketvan.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/rocketvan.co.uk) |
 | Rons Coffee House | [`ronspeckham.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/ronspeckham.com) |
+| Rooftop Cinema Club Peckham | [`rooftopcinemaclub.com-peckham`](https://github.com/clusterflick/data-calendar/releases/latest/download/rooftopcinemaclub.com-peckham) |
+| Rooftop Cinema Club Stratford | [`rooftopcinemaclub.com-stratford`](https://github.com/clusterflick/data-calendar/releases/latest/download/rooftopcinemaclub.com-stratford) |
 | Royal Albert Hall | [`royalalberthall.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/royalalberthall.com) |
 | Sands Films Cinema | [`sandsfilms.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/sandsfilms.co.uk) |
 | Subtitle Cinema | [`scarlettmalone.com-subtitlecinema`](https://github.com/clusterflick/data-calendar/releases/latest/download/scarlettmalone.com-subtitlecinema) |
