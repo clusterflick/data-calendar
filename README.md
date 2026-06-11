@@ -176,6 +176,7 @@ is listed below and can be used with the download URL pattern above.
 | The Exchange Twickenham | [`exchangetwickenham.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/exchangetwickenham.co.uk) |
 | The Haggerston | [`facebook.com-thehaggerston`](https://github.com/clusterflick/data-calendar/releases/latest/download/facebook.com-thehaggerston) |
 | The Fellowship Cinema | [`fellowshipinn.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/fellowshipinn.co.uk) |
+| Finch Community Cinema | [`finchcafe.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/finchcafe.co.uk) |
 | The Feminist Library | [`feministlibrary.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/feministlibrary.co.uk) |
 | Firmdale Charlotte Street Hotel | [`firmdalehotels.com-charlotte-street`](https://github.com/clusterflick/data-calendar/releases/latest/download/firmdalehotels.com-charlotte-street) |
 | Firmdale Covent Garden Hotel | [`firmdalehotels.com-covent-garden`](https://github.com/clusterflick/data-calendar/releases/latest/download/firmdalehotels.com-covent-garden) |
@@ -207,7 +208,6 @@ is listed below and can be used with the download URL pattern above.
 | Langley Park FILMBOX | [`langleyfilmbox.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/langleyfilmbox.com) |
 | Deptford Lounge | [`lewisham.gov.uk-deptford-lounge`](https://github.com/clusterflick/data-calendar/releases/latest/download/lewisham.gov.uk-deptford-lounge) |
 | London Welsh Centre | [`londonwelsh.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonwelsh.org) |
-| Lost Cinema | [`lost.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/lost.org) |
 | Lumiere Cinema Romford | [`lumiereromford.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lumiereromford.com) |
 | LUX | [`lux.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/lux.org.uk) |
 | W London | [`marriott.com-w-london`](https://github.com/clusterflick/data-calendar/releases/latest/download/marriott.com-w-london) |
