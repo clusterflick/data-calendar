@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 256 supported venues. The calendar filename for each venue
+There are currently 259 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -91,6 +91,7 @@ is listed below and can be used with the download URL pattern above.
 | 229 | [`229.london`](https://github.com/clusterflick/data-calendar/releases/latest/download/229.london) |
 | Austrian Cultural Forum London | [`acflondon.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/acflondon.org) |
 | ActOne Cinema | [`actonecinema.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/actonecinema.co.uk) |
+| Adventure Cinema Kew Gardens | [`adventurecinema.co.uk-kew-gardens`](https://github.com/clusterflick/data-calendar/releases/latest/download/adventurecinema.co.uk-kew-gardens) |
 | All is Joy Studios | [`allisjoysoho.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/allisjoysoho.com) |
 | All Saints Church | [`allsaintsislington.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/allsaintsislington.org) |
 | The Foundry | [`aplaceforchange.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/aplaceforchange.co.uk) |
@@ -110,6 +111,7 @@ is listed below and can be used with the download URL pattern above.
 | The Boathouse Studios | [`boathousebarkingstudios.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/boathousebarkingstudios.com) |
 | Boxpark Wembley | [`boxpark.co.uk-wembley`](https://github.com/clusterflick/data-calendar/releases/latest/download/boxpark.co.uk-wembley) |
 | The Private Cinema | [`bulgarihotels.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/bulgarihotels.com) |
+| Canary Wharf Summer Screens | [`canarywharf.com-summer-screens`](https://github.com/clusterflick/data-calendar/releases/latest/download/canarywharf.com-summer-screens) |
 | Castlehaven Community Cinema | [`castlehaven.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/castlehaven.org.uk) |
 | The Castle Sidcup | [`castlesidcup.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/castlesidcup.com) |
 | The Cave | [`contactthecaveldn.wixsite.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/contactthecaveldn.wixsite.com) |
@@ -300,6 +302,7 @@ is listed below and can be used with the download URL pattern above.
 | The Soho Screening Rooms | [`sohoscreeningrooms.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/sohoscreeningrooms.co.uk) |
 | The 1850 | [`stmarys.ac.uk-the-1850`](https://github.com/clusterflick/data-calendar/releases/latest/download/stmarys.ac.uk-the-1850) |
 | St Matthias Church | [`stmchurch.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/stmchurch.co.uk) |
+| Stanley Arts | [`stanleyarts.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/stanleyarts.org) |
 | Strongroom Bar | [`strongroombar.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/strongroombar.com) |
 | Sydenham Arts | [`sydenhamarts.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/sydenhamarts.co.uk) |
 | Tate Britain | [`tate.org.uk-tate-britain`](https://github.com/clusterflick/data-calendar/releases/latest/download/tate.org.uk-tate-britain) |
