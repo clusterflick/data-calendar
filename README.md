@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 275 supported venues. The calendar filename for each venue
+There are currently 276 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -362,6 +362,7 @@ is listed below and can be used with the download URL pattern above.
 | West Norwood Library & Picturehouse | [`picturehouses.com-west-norwood`](https://github.com/clusterflick/data-calendar/releases/latest/download/picturehouses.com-west-norwood) |
 | Whitechapel Gallery | [`whitechapelgallery.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/whitechapelgallery.org) |
 | William The Fourth | [`william-the-fourth.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/william-the-fourth.com) |
+| Wilton's Music Hall | [`wiltons.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/wiltons.org.uk) |
 | Women's Museum | [`newtownculture.org-womens-museum`](https://github.com/clusterflick/data-calendar/releases/latest/download/newtownculture.org-womens-museum) |
 
 ## Schedule
