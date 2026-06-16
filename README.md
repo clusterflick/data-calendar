@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 302 supported venues. The calendar filename for each venue
+There are currently 303 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -107,6 +107,7 @@ is listed below and can be used with the download URL pattern above.
 | BLOC Cinema | [`qmul.ac.uk-bloc`](https://github.com/clusterflick/data-calendar/releases/latest/download/qmul.ac.uk-bloc) |
 | Bloomsbury Central Baptist Church | [`bloomsbury.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/bloomsbury.org.uk) |
 | Boxpark Wembley | [`boxpark.co.uk-wembley`](https://github.com/clusterflick/data-calendar/releases/latest/download/boxpark.co.uk-wembley) |
+| Cadogan Hall | [`cadoganhall.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/cadoganhall.com) |
 | Caledonian Park Clock Tower | [`callypark.london`](https://github.com/clusterflick/data-calendar/releases/latest/download/callypark.london) |
 | Canary Wharf Summer Screens | [`canarywharf.com-summer-screens`](https://github.com/clusterflick/data-calendar/releases/latest/download/canarywharf.com-summer-screens) |
 | Casa Lavanda | [`instagram.com-casalavandauk`](https://github.com/clusterflick/data-calendar/releases/latest/download/instagram.com-casalavandauk) |
