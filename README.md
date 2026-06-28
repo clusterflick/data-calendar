@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 308 supported venues. The calendar filename for each venue
+There are currently 309 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -344,6 +344,7 @@ is listed below and can be used with the download URL pattern above.
 | The London Archives | [`thelondonarchives.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/thelondonarchives.org) |
 | The London Art Bar | [`londonartbar.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonartbar.com) |
 | The Moniker | [`drakeandmorgan.co.uk-the-moniker`](https://github.com/clusterflick/data-calendar/releases/latest/download/drakeandmorgan.co.uk-the-moniker) |
+| The Nehru Centre | [`nehrucentre.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/nehrucentre.org.uk) |
 | The Nest | [`thamesmeadnow.org.uk-the-nest`](https://github.com/clusterflick/data-calendar/releases/latest/download/thamesmeadnow.org.uk-the-nest) |
 | The Nickel | [`thenickel.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/thenickel.co.uk) |
 | The Olympic Cinema | [`olympiccinema.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/olympiccinema.com) |
