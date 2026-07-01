@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 309 supported venues. The calendar filename for each venue
+There are currently 308 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -383,7 +383,6 @@ is listed below and can be used with the download URL pattern above.
 | Vue North Finchley | [`myvue.com-north-finchley`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-north-finchley) |
 | Vue Piccadilly | [`myvue.com-piccadilly`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-piccadilly) |
 | Vue Romford | [`myvue.com-romford`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-romford) |
-| Vue Shepherd's Bush | [`myvue.com-shepherds-bush`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-shepherds-bush) |
 | Vue West End | [`myvue.com-leicester-square`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-leicester-square) |
 | Vue Westfield London | [`myvue.com-westfield`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-westfield) |
 | Vue Westfield Stratford | [`myvue.com-westfield-stratford-city`](https://github.com/clusterflick/data-calendar/releases/latest/download/myvue.com-westfield-stratford-city) |
