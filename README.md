@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 308 supported venues. The calendar filename for each venue
+There are currently 312 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue | Calendar File |
@@ -149,6 +149,7 @@ is listed below and can be used with the download URL pattern above.
 | Curzon Wimbledon | [`curzon.com-wimbledon`](https://github.com/clusterflick/data-calendar/releases/latest/download/curzon.com-wimbledon) |
 | Czech Centre | [`london.czechcentres.cz`](https://github.com/clusterflick/data-calendar/releases/latest/download/london.czechcentres.cz) |
 | Dalston Superstore | [`dalstonsuperstore.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/dalstonsuperstore.com) |
+| De Hems Dutch Cafe Bar | [`dehemspub.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/dehemspub.co.uk) |
 | Deptford Lounge | [`lewisham.gov.uk-deptford-lounge`](https://github.com/clusterflick/data-calendar/releases/latest/download/lewisham.gov.uk-deptford-lounge) |
 | Dolby Screening Room Soho | [`professional.dolby.com-soho`](https://github.com/clusterflick/data-calendar/releases/latest/download/professional.dolby.com-soho) |
 | Dugdale Arts Centre | [`dugdaleartscentre.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/dugdaleartscentre.co.uk) |
@@ -306,6 +307,7 @@ is listed below and can be used with the download URL pattern above.
 | The Beehive Pub | [`beehiven17.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/beehiven17.com) |
 | The Bill Murray | [`angelcomedy.co.uk-bill-murray`](https://github.com/clusterflick/data-calendar/releases/latest/download/angelcomedy.co.uk-bill-murray) |
 | The Black Cultural Centre Islington | [`islington.gov.uk-black-cultural-centre`](https://github.com/clusterflick/data-calendar/releases/latest/download/islington.gov.uk-black-cultural-centre) |
+| The Black Eel | [`theblackeel.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/theblackeel.uk) |
 | The Boathouse Studios | [`boathousebarkingstudios.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/boathousebarkingstudios.com) |
 | The Castle Cinema | [`thecastlecinema.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/thecastlecinema.com) |
 | The Castle Sidcup | [`castlesidcup.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/castlesidcup.com) |
@@ -357,10 +359,12 @@ is listed below and can be used with the download URL pattern above.
 | The Soho Screening Rooms | [`sohoscreeningrooms.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/sohoscreeningrooms.co.uk) |
 | The Source | [`uel.ac.uk-the-source`](https://github.com/clusterflick/data-calendar/releases/latest/download/uel.ac.uk-the-source) |
 | The Tate Institute | [`reinstate.info`](https://github.com/clusterflick/data-calendar/releases/latest/download/reinstate.info) |
+| The Victoria Dalston | [`jaguarshoes.com-the-victoria`](https://github.com/clusterflick/data-calendar/releases/latest/download/jaguarshoes.com-the-victoria) |
 | The Vine | [`thevinenw5.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/thevinenw5.co.uk) |
 | The Wanstead Curtain | [`wansteadfringe.org-the-wanstead-curtain`](https://github.com/clusterflick/data-calendar/releases/latest/download/wansteadfringe.org-the-wanstead-curtain) |
 | The Wiener Holocaust Library | [`wienerholocaustlibrary.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/wienerholocaustlibrary.org) |
 | The Wilds at Barking Riverside | [`thewildsbarkingriverside.london`](https://github.com/clusterflick/data-calendar/releases/latest/download/thewildsbarkingriverside.london) |
+| The Winchester | [`thewinchesterhighgate.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/thewinchesterhighgate.co.uk) |
 | The Writers' Room | [`writersroom.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/writersroom.org.uk) |
 | Theatreship | [`theatreship.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/theatreship.co.uk) |
 | Thomas Wall Centre | [`thethomaswallcentre.harleystreethypnosis.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/thethomaswallcentre.harleystreethypnosis.co.uk) |
