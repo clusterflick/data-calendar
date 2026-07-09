@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 317 supported venues. The calendar filename for each venue
+There are currently 322 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -159,6 +159,7 @@ is listed below and can be used with the download URL pattern above.
 | Electric Cinema Portobello                       | [`electriccinema.co.uk-portobello`](https://github.com/clusterflick/data-calendar/releases/latest/download/electriccinema.co.uk-portobello)                                                 |
 | Electric Cinema White City                       | [`electriccinema.co.uk-white-city`](https://github.com/clusterflick/data-calendar/releases/latest/download/electriccinema.co.uk-white-city)                                                 |
 | Eltham Park South                                | [`royalgreenwich.gov.uk-eltham-park-south`](https://github.com/clusterflick/data-calendar/releases/latest/download/royalgreenwich.gov.uk-eltham-park-south)                                 |
+| ESEA Community Centre                            | [`eseacommunitycentre.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/eseacommunitycentre.org.uk)                                                           |
 | Eventim Apollo                                   | [`eventimapollo.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/eventimapollo.com)                                                                             |
 | Everyman at The Whiteley                         | [`everymancinema.com-the-whiteley`](https://github.com/clusterflick/data-calendar/releases/latest/download/everymancinema.com-the-whiteley)                                                 |
 | Everyman Baker Street                            | [`everymancinema.com-baker-street`](https://github.com/clusterflick/data-calendar/releases/latest/download/everymancinema.com-baker-street)                                                 |
@@ -215,12 +216,14 @@ is listed below and can be used with the download URL pattern above.
 | KERB Social Club                                 | [`kerbsocialclub.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/kerbsocialclub.com)                                                                           |
 | Kiln Theatre                                     | [`kilntheatre.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/kilntheatre.com)                                                                                 |
 | Kingsley Hall Church & Community Centre          | [`khccc.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/khccc.com)                                                                                             |
+| La Camionera                                     | [`lacamionera.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lacamionera.com)                                                                                 |
 | Langley Park FILMBOX                             | [`langleyfilmbox.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/langleyfilmbox.com)                                                                           |
 | Lanzarote Works                                  | [`lanzaroteworks.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lanzaroteworks.com)                                                                           |
 | Liszt Institute                                  | [`culture.hu-london`](https://github.com/clusterflick/data-calendar/releases/latest/download/culture.hu-london)                                                                             |
 | Little Nan's 2.0                                 | [`littlenans.co.uk-2-0`](https://github.com/clusterflick/data-calendar/releases/latest/download/littlenans.co.uk-2-0)                                                                       |
 | London Bridge City                               | [`londonbridgecity.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonbridgecity.co.uk)                                                                   |
 | London Welsh Centre                              | [`londonwelsh.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonwelsh.org)                                                                                 |
+| Lordship Hub Co-op                               | [`lordshiphub.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/lordshiphub.org)                                                                                 |
 | Lower Marsh                                      | [`lowermarshmarket.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lowermarshmarket.com)                                                                       |
 | Lumiere Cinema Romford                           | [`lumiereromford.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lumiereromford.com)                                                                           |
 | LUX                                              | [`lux.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/lux.org.uk)                                                                                           |
@@ -228,6 +231,7 @@ is listed below and can be used with the download URL pattern above.
 | Maida Vale Library                               | [`westminster.gov.uk-maida-vale-library`](https://github.com/clusterflick/data-calendar/releases/latest/download/westminster.gov.uk-maida-vale-library)                                     |
 | Mason & Fifth                                    | [`mason-fifth.com-westbourne-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/mason-fifth.com-westbourne-park)                                                 |
 | May Fair Theatre                                 | [`themayfairhotel.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/themayfairhotel.co.uk)                                                                     |
+| MayDay Rooms                                     | [`maydayrooms.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/maydayrooms.org)                                                                                 |
 | Metro Cinema                                     | [`metrocinema.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/metrocinema.co.uk)                                                                             |
 | Metroland Studios                                | [`metrolandcultures.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/metrolandcultures.com)                                                                     |
 | MOTH Club                                        | [`mothclub.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/mothclub.co.uk)                                                                                   |
@@ -361,6 +365,7 @@ is listed below and can be used with the download URL pattern above.
 | The Ritzy Picturehouse                           | [`picturehouses.com-the-ritzy`](https://github.com/clusterflick/data-calendar/releases/latest/download/picturehouses.com-the-ritzy)                                                         |
 | The Rocketvan Coffee Shop and The Box Shop Bar   | [`rocketvan.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/rocketvan.co.uk)                                                                                 |
 | The RSA                                          | [`thersa.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/thersa.org)                                                                                           |
+| The Showroom                                     | [`theshowroom.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/theshowroom.org)                                                                                 |
 | The Soho Screening Rooms                         | [`sohoscreeningrooms.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/sohoscreeningrooms.co.uk)                                                               |
 | The Source                                       | [`uel.ac.uk-the-source`](https://github.com/clusterflick/data-calendar/releases/latest/download/uel.ac.uk-the-source)                                                                       |
 | The Tate Institute                               | [`reinstate.info`](https://github.com/clusterflick/data-calendar/releases/latest/download/reinstate.info)                                                                                   |
