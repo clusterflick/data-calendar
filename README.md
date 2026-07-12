@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 323 supported venues. The calendar filename for each venue
+There are currently 324 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -204,6 +204,7 @@ is listed below and can be used with the download URL pattern above.
 | Hypha Studio Kentish Town                        | [`hyphastudios.com-kentish-town`](https://github.com/clusterflick/data-calendar/releases/latest/download/hyphastudios.com-kentish-town)                                                     |
 | Imperial College London                          | [`imperial.ac.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/imperial.ac.uk)                                                                                   |
 | Institute of Contemporary Arts                   | [`ica.art`](https://github.com/clusterflick/data-calendar/releases/latest/download/ica.art)                                                                                                 |
+| Instituto Cervantes                              | [`londres.cervantes.es`](https://github.com/clusterflick/data-calendar/releases/latest/download/londres.cervantes.es)                                                                       |
 | Irish Cultural Centre                            | [`irishculturalcentre.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/irishculturalcentre.co.uk)                                                             |
 | Islington Museum                                 | [`islington.gov.uk-islington-museum`](https://github.com/clusterflick/data-calendar/releases/latest/download/islington.gov.uk-islington-museum)                                             |
 | Japan House London                               | [`japanhouselondon.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/japanhouselondon.uk)                                                                         |
