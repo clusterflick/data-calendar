@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 344 supported venues. The calendar filename for each venue
+There are currently 345 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -214,6 +214,7 @@ is listed below and can be used with the download URL pattern above.
 | Heston Park                                      | [`hounslow.gov.uk-heston-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/hounslow.gov.uk-heston-park)                                                         |
 | Hyde Park                                        | [`royalparks.org.uk-hyde-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/royalparks.org.uk-hyde-park)                                                         |
 | Hypha Studio Kentish Town                        | [`hyphastudios.com-kentish-town`](https://github.com/clusterflick/data-calendar/releases/latest/download/hyphastudios.com-kentish-town)                                                     |
+| Ibraaz                                           | [`ibraaz.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/ibraaz.org)                                                                                           |
 | Imperial College London                          | [`imperial.ac.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/imperial.ac.uk)                                                                                   |
 | Institute of Contemporary Arts                   | [`ica.art`](https://github.com/clusterflick/data-calendar/releases/latest/download/ica.art)                                                                                                 |
 | Instituto Cervantes                              | [`londres.cervantes.es`](https://github.com/clusterflick/data-calendar/releases/latest/download/londres.cervantes.es)                                                                       |
