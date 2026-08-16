@@ -83,7 +83,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 375 supported venues. The calendar filename for each venue
+There are currently 380 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -249,7 +249,9 @@ is listed below and can be used with the download URL pattern above.
 | London Bridge City                               | [`londonbridgecity.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonbridgecity.co.uk)                                                                   |
 | London Welsh Centre                              | [`londonwelsh.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonwelsh.org)                                                                                 |
 | Lordship Hub Co-op                               | [`lordshiphub.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/lordshiphub.org)                                                                                 |
+| Lost Souls Pizza                                 | [`lostsoulspizza.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lostsoulspizza.com)                                                                           |
 | Love & Dye                                       | [`loveanddye.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/loveanddye.com)                                                                                   |
+| Love Affair Basement                             | [`loveaffairbasement.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/loveaffairbasement.co.uk)                                                               |
 | Lower Marsh                                      | [`lowermarshmarket.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lowermarshmarket.com)                                                                       |
 | Lumiere Cinema Romford                           | [`lumiereromford.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lumiereromford.com)                                                                           |
 | LUX                                              | [`lux.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/lux.org.uk)                                                                                           |
@@ -289,6 +291,7 @@ is listed below and can be used with the download URL pattern above.
 | ODEON Wimbledon                                  | [`odeon.co.uk-wimbledon`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-wimbledon)                                                                     |
 | Omniplex Sutton                                  | [`omniplex.co.uk-sutton`](https://github.com/clusterflick/data-calendar/releases/latest/download/omniplex.co.uk-sutton)                                                                     |
 | Otter Chaos                                      | [`otterchaos.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/otterchaos.co.uk)                                                                               |
+| Oxford House                                     | [`oxfordhouse.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/oxfordhouse.org.uk)                                                                           |
 | Parkside Community Centre                        | [`parksideca.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/parksideca.org.uk)                                                                             |
 | Parlour                                          | [`parlourkensal.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/parlourkensal.com)                                                                             |
 | Peckham Levels                                   | [`peckhamlevels.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/peckhamlevels.org)                                                                             |
@@ -367,7 +370,8 @@ is listed below and can be used with the download URL pattern above.
 | The Cinema in the Power Station (and the Arches) | [`thecinemainthepowerstation.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/thecinemainthepowerstation.com)                                                   |
 | The Cinema Museum                                | [`cinemamuseum.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/cinemamuseum.org.uk)                                                                         |
 | The Clapham Grand                                | [`claphamgrand.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/claphamgrand.com)                                                                               |
-| The Common Press Shoreditch                      | [`commonpress.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/commonpress.co.uk)                                                                             |
+| The Common Press Dalston                         | [`commonpress.co.uk-dalston`](https://github.com/clusterflick/data-calendar/releases/latest/download/commonpress.co.uk-dalston)                                                             |
+| The Common Press Shoreditch                      | [`commonpress.co.uk-shoreditch`](https://github.com/clusterflick/data-calendar/releases/latest/download/commonpress.co.uk-shoreditch)                                                       |
 | The cornerHOUSE Community Arts Centre            | [`thecornerhouse.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/thecornerhouse.org)                                                                           |
 | The David Lean Cinema                            | [`davidleancinema.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/davidleancinema.org.uk)                                                                   |
 | The Divine                                       | [`thedivine.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/thedivine.co.uk)                                                                                 |
@@ -458,6 +462,7 @@ is listed below and can be used with the download URL pattern above.
 | Watson's General Telegraph                       | [`watsonstelegraph.pub`](https://github.com/clusterflick/data-calendar/releases/latest/download/watsonstelegraph.pub)                                                                       |
 | West Norwood Library & Picturehouse              | [`picturehouses.com-west-norwood`](https://github.com/clusterflick/data-calendar/releases/latest/download/picturehouses.com-west-norwood)                                                   |
 | West Wimbledon Hall                              | [`westwimbledonsociety.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/westwimbledonsociety.org)                                                               |
+| Wheatsheaf Community Hall                        | [`wheatsheafhall.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/wheatsheafhall.org.uk)                                                                     |
 | Whitechapel Gallery                              | [`whitechapelgallery.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/whitechapelgallery.org)                                                                   |
 | William The Fourth                               | [`william-the-fourth.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/william-the-fourth.com)                                                                   |
 | Wilton's Music Hall                              | [`wiltons.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/wiltons.org.uk)                                                                                   |
