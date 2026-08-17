@@ -4,7 +4,8 @@ const { format } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
 const ics = require("ics");
 const replaceSpecialCharacters = require("replace-special-characters");
-const { getCinemaAttributes } = require("scripts/cinemas");
+
+const websiteUrl = "https://clusterflick.com";
 
 const readJSON = async (filePath) => {
   const data = await fs.readFile(filePath, "utf8");
@@ -24,23 +25,21 @@ const setupDirectory = async (name) => {
 
 const parseMinsToMs = (value) => parseInt(value, 10) * 60 * 1000;
 
-const getDuration = (show) => {
-  const title = show.title.toLowerCase();
+const getDuration = (eventTitle, overview) => {
+  const title = eventTitle.toLowerCase();
   const isAllNighter =
     !!title.match(/all[\s|-]night/i) || !!title.match(/\s+marathon$/i);
   // Default to 90 minutes if we don't know the duration
   // unless it's an all nighter/marathon, then make it 6 hours
   const defaultDuration = isAllNighter ? parseMinsToMs(360) : parseMinsToMs(90);
-  return show.overview.duration || defaultDuration;
+  return overview.duration || defaultDuration;
 };
 
 const sanitize = (value) =>
   replaceSpecialCharacters(value.replace(/\s+/g, " "));
 
-const generateEventDescription = (
-  { overview, url, themoviedb },
-  performance,
-) => {
+const generateEventDescription = (movie, showing, performance) => {
+  const { overview, url } = showing;
   let description = "";
   if (performance.screen)
     description += `Showing in screen ${performance.screen}\n`;
@@ -54,11 +53,14 @@ const generateEventDescription = (
   if (performance.bookingUrl)
     description += `Book tickets at ${performance.bookingUrl}\n`;
   if (performance.notes) description += `\nNotes:\n${performance.notes}\n`;
-  if (themoviedb) {
+  // A film that matched The Movie Database is keyed by its TMDB id, and carries
+  // that entry's title, year and synopsis - so the movie itself is the match.
+  if (!movie.isUnmatched) {
+    const year = movie.year ? ` (${movie.year})` : "";
     description += `\n---\n\n`;
     description += `[Match found in The Movie Database]\n`;
-    description += `${themoviedb.title} (${themoviedb.releaseDate.split("-")[0]}) - https://www.themoviedb.org/movie/${themoviedb.id}\n`;
-    description += `${themoviedb.summary || "No summary available"}\n`;
+    description += `${movie.title}${year} - https://www.themoviedb.org/movie/${movie.id}\n`;
+    description += `${movie.overview || "No summary available"}\n`;
   }
   return description.trim();
 };
@@ -68,52 +70,87 @@ const getEventDate = (time) =>
     .split("-")
     .map((value) => parseInt(value, 10));
 
-async function getCinemaNames() {
-  const dataPath = path.join(process.cwd(), "transformed-data");
-  const files = await fs.readdir(dataPath);
-  const dataFiles = [];
-  for (const file of files) {
-    if (!(await fs.stat(path.join(dataPath, file))).isDirectory()) {
-      dataFiles.push(file);
+/**
+ * Group every performance in the release by the venue showing it, as the event
+ * the calendar publishes.
+ *
+ * Built from the combined data rather than the per-venue transformed data so
+ * that each event can link to the film's page on the website. That page is
+ * addressed by the id and title `combine` settles on, which is not derivable
+ * from a single venue's data: an unmatched film is merged with every other
+ * venue's listing of the same title and keeps only one of them, and the website
+ * is a static export, so a URL that is even slightly off is a 404 rather than a
+ * redirect.
+ */
+const getEventsByVenue = ({ movies, venues }, slugify) => {
+  // Every venue in the release gets a feed, including any with nothing on -
+  // an empty calendar is the honest answer, and it fills up again by itself.
+  const eventsByVenue = Object.fromEntries(
+    Object.keys(venues).map((venueId) => [venueId, []]),
+  );
+
+  for (const movie of Object.values(movies)) {
+    const movieUrl = `${websiteUrl}/movies/${movie.id}/${slugify(movie.title)}`;
+
+    for (const performance of movie.performances) {
+      const showing = movie.showings[performance.showingId];
+      if (!showing) {
+        throw new Error(
+          `Movie "${movie.id}" has a performance for unknown showing "${performance.showingId}"`,
+        );
+      }
+
+      const venue = venues[showing.venueId];
+      if (!venue) {
+        throw new Error(
+          `Showing "${showing.id}" is at unknown venue "${showing.venueId}"`,
+        );
+      }
+
+      // The venue's own name for the screening, which is only carried when it
+      // differs from the film's title.
+      const title = showing.title || movie.title;
+
+      eventsByVenue[showing.venueId].push({
+        time: performance.time,
+        event: {
+          title: sanitize(title),
+          description: generateEventDescription(movie, showing, performance),
+          categories: [].concat(showing.overview.categories),
+          start: getEventDate(performance.time),
+          end: getEventDate(
+            performance.time + getDuration(title, showing.overview),
+          ),
+          // The film's page on the website, which collects every screening of
+          // it across London. The venue's own listing is still in the
+          // description, alongside the link to book.
+          url: movieUrl,
+          location: `${venue.name}, ${venue.address}`,
+          geo: venue.geo,
+        },
+      });
     }
   }
-  return dataFiles;
-}
+
+  return eventsByVenue;
+};
 
 (async function () {
-  await setupDirectory("transformed-data");
-  const cinemas = await getCinemaNames();
+  const { default: slugify } = await import("@sindresorhus/slugify");
+  await setupDirectory("combined-data");
+  const dataPath = path.join(process.cwd(), "combined-data", "combined-data.json");
+  const data = await readJSON(dataPath);
+  const eventsByVenue = getEventsByVenue(data, slugify);
 
-  for (const cinema of cinemas) {
-    console.log(`[🎞️  Cinema: ${cinema}]`);
+  for (const venueId of Object.keys(eventsByVenue)) {
+    console.log(`[🎞️  Cinema: ${venueId}]`);
     const start = Date.now();
-    let calName;
-    let icsFormattedEvents;
-    try {
-      const cinemaPath = path.join(process.cwd(), "transformed-data", cinema);
-      const movies = await readJSON(cinemaPath);
-      const { url, name, address, geo } = getCinemaAttributes(cinema);
-
-      calName = name;
-      icsFormattedEvents = movies.reduce((events, movie) => {
-        const duration = getDuration(movie);
-        const moviePerformances = movie.performances.map((performance) => ({
-          title: sanitize(movie.title),
-          description: generateEventDescription(movie, performance),
-          categories: [].concat(movie.overview.categories),
-          start: getEventDate(performance.time),
-          end: getEventDate(performance.time + duration),
-          url,
-          location: `${name}, ${address}`,
-          geo,
-        }));
-
-        return events.concat(moviePerformances);
-      }, []);
-    } catch (e) {
-      console.log(` - ❌ Error generating`, e);
-      throw new Error("Error generating events");
-    }
+    const calName = data.venues[venueId].name;
+    // A film's performances arrive grouped by film, so order the venue's feed
+    // by when the screenings actually happen.
+    const icsFormattedEvents = eventsByVenue[venueId]
+      .sort((a, b) => a.time - b.time)
+      .map(({ event }) => event);
 
     const { error, value } = ics.createEvents(icsFormattedEvents, { calName });
     if (error) {
@@ -122,7 +159,7 @@ async function getCinemaNames() {
     }
 
     await setupDirectory("calendar-data");
-    const calendarPath = path.join(process.cwd(), "calendar-data", cinema);
+    const calendarPath = path.join(process.cwd(), "calendar-data", venueId);
     await fs.writeFile(calendarPath, value);
 
     const duration = Math.round((Date.now() - start) / 1000);

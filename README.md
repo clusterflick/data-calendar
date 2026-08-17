@@ -5,14 +5,14 @@ from cinema data for the Clusterflick project.
 
 ## Purpose
 
-The calendar workflow processes transformed cinema data and generates ICS
+The calendar workflow processes combined cinema data and generates ICS
 (iCalendar) format files for each venue. These calendar feeds allow users to
 subscribe to cinema schedules and receive automatic updates about upcoming
 screenings.
 
 ## How It Works
 
-The workflow downloads the latest transformed data and executes a calendar
+The workflow downloads the latest combined data and executes a calendar
 generation script:
 
 ```bash
@@ -21,7 +21,7 @@ npm run generate-calendar
 
 This script:
 
-- Reads the transformed cinema data for each venue
+- Reads the combined cinema data and groups every performance by its venue
 - Extracts screening information (title, time, location, description)
 - Determines event duration (defaults to 90 minutes, or 6 hours for marathons)
 - Includes movie metadata when available (cast, director, classification)
@@ -31,11 +31,27 @@ This script:
 Each calendar event includes:
 
 - Movie title and screening time
+- A link to the film's page on [clusterflick.com](https://clusterflick.com),
+  which lists every screening of it across London
 - Venue name, screen number, and address
 - Film classification and duration
 - Cast and director information
 - Booking URL and additional notes
 - Movie Database link when available
+
+The slug in that link is built with `@sindresorhus/slugify`, exactly as
+[clusterflick.com](https://github.com/clusterflick/clusterflick.com) builds it
+for the page itself. Keep the version here in step with the website's: the major
+versions differ in how they treat characters like a curly apostrophe, and a slug
+that disagrees with the site's is a 404 rather than a redirect.
+
+The combined data is the input rather than the transformed data because the
+event link needs the film's page address, and that is built from the id and
+title the combine stage settles on. Neither is derivable from a single venue's
+transformed listing: an unmatched film is merged with every other venue's
+listing of the same title and only one of those titles survives. The website is
+a static export, so a URL that is even slightly off is a 404 rather than a
+redirect.
 
 ## Usage
 
