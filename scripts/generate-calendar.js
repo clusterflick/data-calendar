@@ -38,31 +38,81 @@ const getDuration = (eventTitle, overview) => {
 const sanitize = (value) =>
   replaceSpecialCharacters(value.replace(/\s+/g, " "));
 
-const generateEventDescription = (movie, showing, performance) => {
+const MAX_BILLED_CAST = 3;
+
+/**
+ * Resolve a matched film's TMDB person ids to names, falling back to the names
+ * the venue published. The match covers more screenings than the venue listings
+ * do, and its cast is in billing order, so it is preferred where both exist.
+ */
+const getPeopleNames = (ids, people, fallbackNames) => {
+  const names = (ids || []).map((id) => people[id]?.name).filter(Boolean);
+  return names.length > 0 ? names : fallbackNames || [];
+};
+
+/**
+ * The event body, ordered so that everything a reader acts on sits above the
+ * synopsis: identity, then this particular screening, then the links. The
+ * synopsis is the only block of unbounded length, so anything below it can be
+ * pushed behind a "show more" fold in the calendar client.
+ */
+const generateEventDescription = (
+  movie,
+  showing,
+  performance,
+  people,
+  movieUrl,
+) => {
   const { overview, url } = showing;
-  let description = "";
-  if (performance.screen)
-    description += `Showing in screen ${performance.screen}\n`;
-  if (overview.classification)
-    description += `Film classification: ${overview.classification}\n`;
-  if (overview.actors && overview.actors.length > 0)
-    description += `Starring ${overview.actors.join(", ")}\n`;
-  if (overview.directors && overview.directors.length > 0)
-    description += `Directed by ${overview.directors.join(", ")}\n`;
-  if (url) description += `For more details, see ${url}\n`;
-  if (performance.bookingUrl)
-    description += `Book tickets at ${performance.bookingUrl}\n`;
-  if (performance.notes) description += `\nNotes:\n${performance.notes}\n`;
-  // A film that matched The Movie Database is keyed by its TMDB id, and carries
-  // that entry's title, year and synopsis - so the movie itself is the match.
+  const blocks = [];
+  const summary = [];
+
+  // The film as it is catalogued, which is worth stating because the venue's
+  // own title for the screening frequently is not it - a concert performance,
+  // a season strand, a rerelease carrying its certificate in the title.
+  const directors = getPeopleNames(movie.directors, people, overview.directors);
+  const directedBy =
+    directors.length > 0 ? `directed by ${directors.join(", ")}` : "";
   if (!movie.isUnmatched) {
     const year = movie.year ? ` (${movie.year})` : "";
-    description += `\n---\n\n`;
-    description += `[Match found in The Movie Database]\n`;
-    description += `${movie.title}${year} - https://www.themoviedb.org/movie/${movie.id}\n`;
-    description += `${movie.overview || "No summary available"}\n`;
+    const credit = directedBy ? `, ${directedBy}` : "";
+    summary.push(`${movie.title}${year}${credit}`);
+  } else if (directedBy) {
+    summary.push(`Directed by ${directors.join(", ")}`);
   }
-  return description.trim();
+
+  const facts = [];
+  if (performance.screen) facts.push(`Screen ${performance.screen}`);
+  if (overview.classification) facts.push(`Cert ${overview.classification}`);
+  if (facts.length > 0) summary.push(facts.join(" · "));
+
+  // What makes this screening different from the venue's others: the format,
+  // the accessibility provision, the live orchestra, the free popcorn.
+  if (performance.notes) summary.push(performance.notes);
+  if (summary.length > 0) blocks.push(summary.join("\n"));
+
+  const links = [];
+  if (performance.bookingUrl)
+    links.push(`Book tickets: ${performance.bookingUrl}`);
+  // The venue's own page is a different URL from the booking flow for all but
+  // a twentieth of screenings, and is the fallback when that flow has expired.
+  if (url && url !== performance.bookingUrl)
+    links.push(`Venue listing: ${url}`);
+  // Repeated from the event's URL property because Google Calendar drops that
+  // property on import, where Apple Calendar surfaces it as its own field.
+  links.push(`All screenings: ${movieUrl}`);
+  blocks.push(links.join("\n"));
+
+  const details = [];
+  if (!movie.isUnmatched && movie.overview) details.push(movie.overview);
+  const actors = getPeopleNames(movie.actors, people, overview.actors).slice(
+    0,
+    MAX_BILLED_CAST,
+  );
+  if (actors.length > 0) details.push(`Starring ${actors.join(", ")}`);
+  if (details.length > 0) blocks.push(`---\n${details.join("\n")}`);
+
+  return blocks.join("\n\n");
 };
 
 const getEventDate = (time) =>
@@ -82,7 +132,7 @@ const getEventDate = (time) =>
  * is a static export, so a URL that is even slightly off is a 404 rather than a
  * redirect.
  */
-const getEventsByVenue = ({ movies, venues }, slugify) => {
+const getEventsByVenue = ({ movies, people, venues }, slugify) => {
   // Every venue in the release gets a feed, including any with nothing on -
   // an empty calendar is the honest answer, and it fills up again by itself.
   const eventsByVenue = Object.fromEntries(
@@ -90,7 +140,10 @@ const getEventsByVenue = ({ movies, venues }, slugify) => {
   );
 
   for (const movie of Object.values(movies)) {
-    const movieUrl = `${websiteUrl}/movies/${movie.id}/${slugify(movie.title)}`;
+    // `#show-all` because the film's page applies the reader's saved filters,
+    // which default to the coming week - without it a link to a screening a
+    // month out lands on a page reporting that nothing matches.
+    const movieUrl = `${websiteUrl}/movies/${movie.id}/${slugify(movie.title)}#show-all`;
 
     for (const performance of movie.performances) {
       const showing = movie.showings[performance.showingId];
@@ -115,7 +168,13 @@ const getEventsByVenue = ({ movies, venues }, slugify) => {
         time: performance.time,
         event: {
           title: sanitize(title),
-          description: generateEventDescription(movie, showing, performance),
+          description: generateEventDescription(
+            movie,
+            showing,
+            performance,
+            people,
+            movieUrl,
+          ),
           categories: [].concat(showing.overview.categories),
           start: getEventDate(performance.time),
           end: getEventDate(
