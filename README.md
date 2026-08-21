@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 380 supported venues. The calendar filename for each venue
+There are currently 381 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -124,6 +124,7 @@ is listed below and can be used with the download URL pattern above.
 | BFI IMAX                                         | [`bfi.org.uk-imax`](https://github.com/clusterflick/data-calendar/releases/latest/download/bfi.org.uk-imax)                                                                                 |
 | BFI Southbank                                    | [`bfi.org.uk-southbank`](https://github.com/clusterflick/data-calendar/releases/latest/download/bfi.org.uk-southbank)                                                                       |
 | BFI Stephen Street                               | [`bfi.org.uk-stephen-street`](https://github.com/clusterflick/data-calendar/releases/latest/download/bfi.org.uk-stephen-street)                                                             |
+| Big Penny Social                                 | [`bigpennysocial.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/bigpennysocial.co.uk)                                                                       |
 | Birkbeck Central                                 | [`bbk.ac.uk-central`](https://github.com/clusterflick/data-calendar/releases/latest/download/bbk.ac.uk-central)                                                                             |
 | Birkbeck Cinema                                  | [`bbk.ac.uk-cinema`](https://github.com/clusterflick/data-calendar/releases/latest/download/bbk.ac.uk-cinema)                                                                               |
 | BLOC Cinema                                      | [`qmul.ac.uk-bloc`](https://github.com/clusterflick/data-calendar/releases/latest/download/qmul.ac.uk-bloc)                                                                                 |
