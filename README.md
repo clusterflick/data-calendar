@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 393 supported venues. The calendar filename for each venue
+There are currently 397 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -108,6 +108,7 @@ is listed below and can be used with the download URL pattern above.
 | ActOne Cinema                                    | [`actonecinema.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/actonecinema.co.uk)                                                                           |
 | Adventure Cinema Kew Gardens                     | [`adventurecinema.co.uk-kew-gardens`](https://github.com/clusterflick/data-calendar/releases/latest/download/adventurecinema.co.uk-kew-gardens)                                             |
 | Aga Khan Centre                                  | [`agakhancentre.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/agakhancentre.org.uk)                                                                       |
+| Alexandra Palace Theatre                         | [`alexandrapalace.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/alexandrapalace.com)                                                                         |
 | All is Joy Studios                               | [`allisjoysoho.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/allisjoysoho.com)                                                                               |
 | All Saints Church                                | [`allsaintsislington.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/allsaintsislington.org)                                                                   |
 | All Saints Kingston                              | [`allsaintskingston.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/allsaintskingston.co.uk)                                                                 |
@@ -309,6 +310,7 @@ is listed below and can be used with the download URL pattern above.
 | ODEON Streatham                                  | [`odeon.co.uk-streatham`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-streatham)                                                                     |
 | ODEON Tottenham Court Road                       | [`odeon.co.uk-tottenham-court-road`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-tottenham-court-road)                                               |
 | ODEON Wimbledon                                  | [`odeon.co.uk-wimbledon`](https://github.com/clusterflick/data-calendar/releases/latest/download/odeon.co.uk-wimbledon)                                                                     |
+| Ognisko Polskie                                  | [`ogniskopolskie.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/ogniskopolskie.org.uk)                                                                     |
 | Omniplex Sutton                                  | [`omniplex.co.uk-sutton`](https://github.com/clusterflick/data-calendar/releases/latest/download/omniplex.co.uk-sutton)                                                                     |
 | Orchard Dry Dock                                 | [`goodluckhope.com-orchard-dry-dock`](https://github.com/clusterflick/data-calendar/releases/latest/download/goodluckhope.com-orchard-dry-dock)                                             |
 | Oslo Hackney                                     | [`oslohackney.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/oslohackney.com)                                                                                 |
@@ -430,6 +432,7 @@ is listed below and can be used with the download URL pattern above.
 | The London Art Bar                               | [`londonartbar.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonartbar.com)                                                                               |
 | The Man of Kent                                  | [`facebook.com-themanofkent`](https://github.com/clusterflick/data-calendar/releases/latest/download/facebook.com-themanofkent)                                                             |
 | The Manor Arms                                   | [`themanorarms.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/themanorarms.com)                                                                               |
+| The Mildmay Club                                 | [`mildmay.club`](https://github.com/clusterflick/data-calendar/releases/latest/download/mildmay.club)                                                                                       |
 | The Moniker                                      | [`drakeandmorgan.co.uk-the-moniker`](https://github.com/clusterflick/data-calendar/releases/latest/download/drakeandmorgan.co.uk-the-moniker)                                               |
 | The Mud Room                                     | [`themudroomlondon.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/themudroomlondon.com)                                                                       |
 | The Nehru Centre                                 | [`nehrucentre.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/nehrucentre.org.uk)                                                                           |
@@ -450,6 +453,7 @@ is listed below and can be used with the download URL pattern above.
 | The Victoria Dalston                             | [`jaguarshoes.com-the-victoria`](https://github.com/clusterflick/data-calendar/releases/latest/download/jaguarshoes.com-the-victoria)                                                       |
 | The Vine                                         | [`thevinenw5.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/thevinenw5.co.uk)                                                                               |
 | The Wanstead Curtain                             | [`wansteadfringe.org-the-wanstead-curtain`](https://github.com/clusterflick/data-calendar/releases/latest/download/wansteadfringe.org-the-wanstead-curtain)                                 |
+| The Well Walk Theatre                            | [`thewellwalktheatre.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/thewellwalktheatre.com)                                                                   |
 | The White Lion Pub                               | [`whitelionsw16.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/whitelionsw16.co.uk)                                                                         |
 | The Wiener Holocaust Library                     | [`wienerholocaustlibrary.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/wienerholocaustlibrary.org)                                                           |
 | The Wilds at Barking Riverside                   | [`thewildsbarkingriverside.london`](https://github.com/clusterflick/data-calendar/releases/latest/download/thewildsbarkingriverside.london)                                                 |
