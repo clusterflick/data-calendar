@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 391 supported venues. The calendar filename for each venue
+There are currently 393 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -261,6 +261,7 @@ is listed below and can be used with the download URL pattern above.
 | La Camionera                                     | [`lacamionera.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lacamionera.com)                                                                                 |
 | Ladbroke Hall                                    | [`ladbrokehall.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/ladbrokehall.com)                                                                               |
 | Langley Park FILMBOX                             | [`langleyfilmbox.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/langleyfilmbox.com)                                                                           |
+| Langthorne Park                                  | [`walthamforest.gov.uk-langthorne-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/walthamforest.gov.uk-langthorne-park)                                       |
 | Lanzarote Works                                  | [`lanzaroteworks.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lanzaroteworks.com)                                                                           |
 | LEX2 Livesey Exchange                            | [`liveseyexchange.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/liveseyexchange.com)                                                                         |
 | Liszt Institute                                  | [`culture.hu-london`](https://github.com/clusterflick/data-calendar/releases/latest/download/culture.hu-london)                                                                             |
@@ -362,6 +363,7 @@ is listed below and can be used with the download URL pattern above.
 | St Matthew's Church                              | [`stmatthewswimbledon.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/stmatthewswimbledon.org)                                                                 |
 | St Matthias Church                               | [`stmchurch.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/stmchurch.co.uk)                                                                                 |
 | Stanley Arts                                     | [`stanleyarts.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/stanleyarts.org)                                                                                 |
+| Stoneydown Park                                  | [`walthamforest.gov.uk-stoneydown-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/walthamforest.gov.uk-stoneydown-park)                                       |
 | Strand Building                                  | [`kcl.ac.uk-strand`](https://github.com/clusterflick/data-calendar/releases/latest/download/kcl.ac.uk-strand)                                                                               |
 | Streatham Library                                | [`lambeth.gov.uk-streatham-library`](https://github.com/clusterflick/data-calendar/releases/latest/download/lambeth.gov.uk-streatham-library)                                               |
 | Strongroom Bar                                   | [`strongroombar.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/strongroombar.com)                                                                             |
