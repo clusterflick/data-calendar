@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 409 supported venues. The calendar filename for each venue
+There are currently 410 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -450,6 +450,7 @@ is listed below and can be used with the download URL pattern above.
 | The Nickel                                       | [`thenickel.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/thenickel.co.uk)                                                                                 |
 | The Olympic Cinema                               | [`olympiccinema.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/olympiccinema.com)                                                                             |
 | The Others                                       | [`theothers.uk.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/theothers.uk.com)                                                                               |
+| The People's Letters Bookshop                    | [`peoplesletters.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/peoplesletters.org)                                                                           |
 | The Private Cinema                               | [`bulgarihotels.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/bulgarihotels.com)                                                                             |
 | The Refinery Citypoint                           | [`drakeandmorgan.co.uk-the-refinery-citypoint`](https://github.com/clusterflick/data-calendar/releases/latest/download/drakeandmorgan.co.uk-the-refinery-citypoint)                         |
 | The Ritzy Picturehouse                           | [`picturehouses.com-the-ritzy`](https://github.com/clusterflick/data-calendar/releases/latest/download/picturehouses.com-the-ritzy)                                                         |
