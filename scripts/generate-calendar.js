@@ -38,6 +38,53 @@ const getDuration = (eventTitle, overview) => {
 const sanitize = (value) =>
   replaceSpecialCharacters(value.replace(/\s+/g, " "));
 
+// CC BY 4.0 asks for credit wherever the data is shown. Once a feed has been
+// subscribed to it has left behind the release, the README and everything else
+// that carries the licence, so the attribution has to travel inside the file
+// itself.
+const calendarDescription = sanitize(
+  "Screening data from Clusterflick - clusterflick.com (CC BY 4.0). " +
+    `Licence and attribution: ${websiteUrl}/data-licence`,
+);
+
+/**
+ * Folds a content line to the 75-octet limit RFC 5545 sets, continuing with a
+ * tab, matching what the `ics` package does for the lines it writes itself.
+ */
+const foldLine = (line) => {
+  const parts = [];
+  let rest = Array.from(line);
+  let limit = 75;
+  while (rest.length > limit) {
+    parts.push(rest.slice(0, limit).join(""));
+    rest = rest.slice(limit);
+    limit = 74;
+  }
+  parts.push(rest.join(""));
+  return parts.join("\r\n\t");
+};
+
+/**
+ * Splices the attribution into a generated calendar as X-WR-CALDESC, the one
+ * property calendar clients surface as the feed's own description.
+ *
+ * `ics` has no option for it, so it goes in ahead of X-PUBLISHED-TTL - the last
+ * line of the header the package writes, and a fixed string it never folds.
+ * Losing the attribution is a licence problem rather than a cosmetic one, so a
+ * header that no longer looks like that fails the run instead of quietly
+ * publishing feeds with no credit in them.
+ */
+const withCalendarDescription = (calendar) => {
+  const anchor = "X-PUBLISHED-TTL:";
+  if (!calendar.includes(anchor)) {
+    throw new Error(
+      `Cannot add attribution: no "${anchor}" line in the generated calendar`,
+    );
+  }
+  const description = foldLine(`X-WR-CALDESC:${calendarDescription}`);
+  return calendar.replace(anchor, () => `${description}\r\n${anchor}`);
+};
+
 const MAX_BILLED_CAST = 3;
 
 /**
@@ -219,7 +266,7 @@ const getEventsByVenue = ({ movies, people, venues }, slugify) => {
 
     await setupDirectory("calendar-data");
     const calendarPath = path.join(process.cwd(), "calendar-data", venueId);
-    await fs.writeFile(calendarPath, value);
+    await fs.writeFile(calendarPath, withCalendarDescription(value));
 
     const duration = Math.round((Date.now() - start) / 1000);
     console.log(` - ✅ Generated (${duration}s)`);

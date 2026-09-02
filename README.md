@@ -529,3 +529,24 @@ if needed.
 The workflow requires a GitHub secret:
 
 - `PAT` - Personal Access Token for downloading releases from other repositories
+
+## Licence
+
+The code in this repository is licensed under the [MIT licence](LICENSE).
+
+The **calendar feeds published in this repository's releases are not** — they
+are licensed separately, under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with a carve-out for
+the third-party metadata they carry. If you use them, credit Clusterflick:
+
+> Screening data from [Clusterflick](https://clusterflick.com) (CC BY 4.0)
+
+Each feed already carries that credit in its `X-WR-CALDESC` property, so a feed
+that has travelled into someone's calendar app still says where it came from.
+Leave it intact when redistributing.
+
+Event descriptions embed synopses, cast and director names from The Movie
+Database, which are **excluded** from that grant. See
+[LICENSE-DATA](LICENSE-DATA) for the exact terms, or
+[clusterflick.com/data-licence](https://clusterflick.com/data-licence) for the
+readable version.
