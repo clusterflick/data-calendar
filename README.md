@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 410 supported venues. The calendar filename for each venue
+There are currently 411 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -375,6 +375,7 @@ is listed below and can be used with the download URL pattern above.
 | St Matthew's Church                              | [`stmatthewswimbledon.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/stmatthewswimbledon.org)                                                                 |
 | St Matthias Church                               | [`stmchurch.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/stmchurch.co.uk)                                                                                 |
 | Stanley Arts                                     | [`stanleyarts.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/stanleyarts.org)                                                                                 |
+| Stockwell Park Community Centre                  | [`thetrust.org.uk-stockwell-park-community-centre`](https://github.com/clusterflick/data-calendar/releases/latest/download/thetrust.org.uk-stockwell-park-community-centre)                 |
 | Stoneydown Park                                  | [`walthamforest.gov.uk-stoneydown-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/walthamforest.gov.uk-stoneydown-park)                                       |
 | Strand Building                                  | [`kcl.ac.uk-strand`](https://github.com/clusterflick/data-calendar/releases/latest/download/kcl.ac.uk-strand)                                                                               |
 | Streatham Library                                | [`lambeth.gov.uk-streatham-library`](https://github.com/clusterflick/data-calendar/releases/latest/download/lambeth.gov.uk-streatham-library)                                               |
