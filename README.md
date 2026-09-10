@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 412 supported venues. The calendar filename for each venue
+There are currently 413 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -442,6 +442,7 @@ is listed below and can be used with the download URL pattern above.
 | The Leyton Engineer                              | [`theleytonengineer.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/theleytonengineer.co.uk)                                                                 |
 | The London Archives                              | [`thelondonarchives.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/thelondonarchives.org)                                                                     |
 | The London Art Bar                               | [`londonartbar.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonartbar.com)                                                                               |
+| The Mall Tavern                                  | [`themalltavern.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/themalltavern.com)                                                                             |
 | The Man of Kent                                  | [`facebook.com-themanofkent`](https://github.com/clusterflick/data-calendar/releases/latest/download/facebook.com-themanofkent)                                                             |
 | The Manor Arms                                   | [`themanorarms.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/themanorarms.com)                                                                               |
 | The Mildmay Club                                 | [`mildmay.club`](https://github.com/clusterflick/data-calendar/releases/latest/download/mildmay.club)                                                                                       |
