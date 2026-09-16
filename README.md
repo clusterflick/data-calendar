@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 414 supported venues. The calendar filename for each venue
+There are currently 415 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -222,6 +222,7 @@ is listed below and can be used with the download URL pattern above.
 | Firmdale Charlotte Street Hotel                  | [`firmdalehotels.com-charlotte-street`](https://github.com/clusterflick/data-calendar/releases/latest/download/firmdalehotels.com-charlotte-street)                                         |
 | Firmdale Covent Garden Hotel                     | [`firmdalehotels.com-covent-garden`](https://github.com/clusterflick/data-calendar/releases/latest/download/firmdalehotels.com-covent-garden)                                               |
 | Firmdale The Soho Hotel                          | [`firmdalehotels.com-soho`](https://github.com/clusterflick/data-calendar/releases/latest/download/firmdalehotels.com-soho)                                                                 |
+| Folklore                                         | [`folklorehoxton.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/folklorehoxton.co.uk)                                                                       |
 | Fortune Green                                    | [`fortunegreen.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/fortunegreen.org.uk)                                                                         |
 | Freud Museum London                              | [`freud.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/freud.org.uk)                                                                                       |
 | Frontline Club                                   | [`frontlineclub.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/frontlineclub.com)                                                                             |
