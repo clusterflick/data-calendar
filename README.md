@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 422 supported venues. The calendar filename for each venue
+There are currently 424 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -277,6 +277,7 @@ is listed below and can be used with the download URL pattern above.
 | Liszt Institute                                  | [`culture.hu-london`](https://github.com/clusterflick/data-calendar/releases/latest/download/culture.hu-london)                                                                             |
 | Little Nan's 2.0                                 | [`littlenans.co.uk-2-0`](https://github.com/clusterflick/data-calendar/releases/latest/download/littlenans.co.uk-2-0)                                                                       |
 | London Bridge City                               | [`londonbridgecity.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonbridgecity.co.uk)                                                                   |
+| London Film School                               | [`lfs.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/lfs.org.uk)                                                                                           |
 | London Welsh Centre                              | [`londonwelsh.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonwelsh.org)                                                                                 |
 | Lordship Hub Co-op                               | [`lordshiphub.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/lordshiphub.org)                                                                                 |
 | Lost Souls Pizza                                 | [`lostsoulspizza.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/lostsoulspizza.com)                                                                           |
@@ -342,6 +343,7 @@ is listed below and can be used with the download URL pattern above.
 | Poppy's Funerals                                 | [`poppysfunerals.co.uk-raynes-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/poppysfunerals.co.uk-raynes-park)                                               |
 | Prince Charles Cinema                            | [`princecharlescinema.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/princecharlescinema.com)                                                                 |
 | Prince of Peckham                                | [`princeofpeckham.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/princeofpeckham.co.uk)                                                                     |
+| Proposition Bethnal Green                        | [`propositionstudios.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/propositionstudios.com)                                                                   |
 | RAF Museum                                       | [`rafmuseum.org.uk-london`](https://github.com/clusterflick/data-calendar/releases/latest/download/rafmuseum.org.uk-london)                                                                 |
 | Raynes Park Community Church                     | [`salvationarmy.org.uk-raynes-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/salvationarmy.org.uk-raynes-park)                                               |
 | RCA Battersea                                    | [`rca.ac.uk-battersea`](https://github.com/clusterflick/data-calendar/releases/latest/download/rca.ac.uk-battersea)                                                                         |
