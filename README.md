@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 428 supported venues. The calendar filename for each venue
+There are currently 429 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -375,6 +375,7 @@ is listed below and can be used with the download URL pattern above.
 | Signature Brewery                                | [`signaturebrew.co.uk-blackhorseroad`](https://github.com/clusterflick/data-calendar/releases/latest/download/signaturebrew.co.uk-blackhorseroad)                                           |
 | Siobhan Davies Studios                           | [`siobhandavies.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/siobhandavies.com)                                                                             |
 | South London Gallery                             | [`southlondongallery.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/southlondongallery.org)                                                                   |
+| Southbank Centre                                 | [`southbankcentre.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/southbankcentre.co.uk)                                                                     |
 | Spanners                                         | [`spanners.club`](https://github.com/clusterflick/data-calendar/releases/latest/download/spanners.club)                                                                                     |
 | St Barnabas Church                               | [`stbarnabas-southfields.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/stbarnabas-southfields.org.uk)                                                     |
 | St George's Garrison Church                      | [`stgeorgeswoolwich.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/stgeorgeswoolwich.org)                                                                     |
