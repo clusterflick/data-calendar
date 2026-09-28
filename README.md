@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 424 supported venues. The calendar filename for each venue
+There are currently 428 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -115,6 +115,7 @@ is listed below and can be used with the download URL pattern above.
 | All Saints Kingston                              | [`allsaintskingston.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/allsaintskingston.co.uk)                                                                 |
 | AMP Studios                                      | [`ampstudios.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/ampstudios.co.uk)                                                                               |
 | Angel Community Centre                           | [`enfield.gov.uk-angel-community-centre`](https://github.com/clusterflick/data-calendar/releases/latest/download/enfield.gov.uk-angel-community-centre)                                     |
+| Art Hub Studios                                  | [`arthub.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/arthub.org.uk)                                                                                     |
 | Art'otel London Hoxton                           | [`artotel.com-hoxton`](https://github.com/clusterflick/data-calendar/releases/latest/download/artotel.com-hoxton)                                                                           |
 | ArtHouse Crouch End                              | [`arthousecrouchend.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/arthousecrouchend.co.uk)                                                                 |
 | Austrian Cultural Forum London                   | [`acflondon.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/acflondon.org)                                                                                     |
@@ -145,6 +146,7 @@ is listed below and can be used with the download URL pattern above.
 | Canary Wharf Summer Screens                      | [`canarywharf.com-summer-screens`](https://github.com/clusterflick/data-calendar/releases/latest/download/canarywharf.com-summer-screens)                                                   |
 | Casa Lavanda                                     | [`instagram.com-casalavandauk`](https://github.com/clusterflick/data-calendar/releases/latest/download/instagram.com-casalavandauk)                                                         |
 | Castlehaven Community Cinema                     | [`castlehaven.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/castlehaven.org.uk)                                                                           |
+| Central Film School                              | [`centralfilmschool.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/centralfilmschool.com)                                                                     |
 | Centre 151                                       | [`centre151.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/centre151.com)                                                                                     |
 | Chadwell Heath Community Centre                  | [`chcc.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/chcc.org.uk)                                                                                         |
 | Christ Church Peckham                            | [`christchurchpeckham.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/christchurchpeckham.org)                                                                 |
@@ -248,6 +250,7 @@ is listed below and can be used with the download URL pattern above.
 | Heston Park                                      | [`hounslow.gov.uk-heston-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/hounslow.gov.uk-heston-park)                                                         |
 | Hillside Gardens Park                            | [`hillsidegardenspark.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/hillsidegardenspark.co.uk)                                                             |
 | HKUK Kingston Community Centre                   | [`hk.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/hk.uk)                                                                                                     |
+| House of Annetta                                 | [`houseofannetta.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/houseofannetta.org)                                                                           |
 | Hyde Park                                        | [`royalparks.org.uk-hyde-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/royalparks.org.uk-hyde-park)                                                         |
 | Hypha Studio Kentish Town                        | [`hyphastudios.com-kentish-town`](https://github.com/clusterflick/data-calendar/releases/latest/download/hyphastudios.com-kentish-town)                                                     |
 | Ibraaz                                           | [`ibraaz.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/ibraaz.org)                                                                                           |
@@ -328,6 +331,7 @@ is listed below and can be used with the download URL pattern above.
 | Oslo Hackney                                     | [`oslohackney.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/oslohackney.com)                                                                                 |
 | Otter Chaos                                      | [`otterchaos.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/otterchaos.co.uk)                                                                               |
 | Oxford House                                     | [`oxfordhouse.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/oxfordhouse.org.uk)                                                                           |
+| Palestine House                                  | [`palestinehouse.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/palestinehouse.org)                                                                           |
 | Parkside Community Centre                        | [`parksideca.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/parksideca.org.uk)                                                                             |
 | Parlour                                          | [`parlourkensal.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/parlourkensal.com)                                                                             |
 | Peckham Levels                                   | [`peckhamlevels.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/peckhamlevels.org)                                                                             |
