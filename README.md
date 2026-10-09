@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 468 supported venues. The calendar filename for each venue
+There are currently 469 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -257,6 +257,7 @@ is listed below and can be used with the download URL pattern above.
 | Hackney Picturehouse                             | [`picturehouses.com-hackney`](https://github.com/clusterflick/data-calendar/releases/latest/download/picturehouses.com-hackney)                                                             |
 | Hackney Showroom                                 | [`hackneyshowroom.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/hackneyshowroom.com)                                                                         |
 | Harris Institute of Teaching and Leadership      | [`harrisinstitute.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/harrisinstitute.org.uk)                                                                   |
+| Hartfield Hub                                    | [`hartfieldhub.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/hartfieldhub.com)                                                                               |
 | Hausu                                            | [`hausulondon.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/hausulondon.co.uk)                                                                             |
 | Heathcote & Star                                 | [`heathcoteandstar.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/heathcoteandstar.co.uk)                                                                   |
 | Heston Park                                      | [`hounslow.gov.uk-heston-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/hounslow.gov.uk-heston-park)                                                         |
