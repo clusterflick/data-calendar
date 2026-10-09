@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 467 supported venues. The calendar filename for each venue
+There are currently 468 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -145,6 +145,7 @@ is listed below and can be used with the download URL pattern above.
 | Building Centre                                  | [`buildingcentre.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/buildingcentre.co.uk)                                                                       |
 | Bush Theatre                                     | [`bushtheatre.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/bushtheatre.co.uk)                                                                             |
 | Cadogan Hall                                     | [`cadoganhall.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/cadoganhall.com)                                                                                 |
+| Cafe OTO                                         | [`cafeoto.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/cafeoto.co.uk)                                                                                     |
 | Caledonian Park Clock Tower                      | [`callypark.london`](https://github.com/clusterflick/data-calendar/releases/latest/download/callypark.london)                                                                               |
 | Camden Town Hall                                 | [`spaces.townhall.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/spaces.townhall.co.uk)                                                                     |
 | Camouflage Cafe                                  | [`camouflagecafe.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/camouflagecafe.co.uk)                                                                       |
