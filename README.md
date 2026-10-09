@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 465 supported venues. The calendar filename for each venue
+There are currently 467 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -115,6 +115,7 @@ is listed below and can be used with the download URL pattern above.
 | All Saints Kingston                              | [`allsaintskingston.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/allsaintskingston.co.uk)                                                                 |
 | AMP Studios                                      | [`ampstudios.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/ampstudios.co.uk)                                                                               |
 | Angel Community Centre                           | [`enfield.gov.uk-angel-community-centre`](https://github.com/clusterflick/data-calendar/releases/latest/download/enfield.gov.uk-angel-community-centre)                                     |
+| Anomalous Space                                  | [`anomalous.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/anomalous.co.uk)                                                                                 |
 | Armenian Institute                               | [`armenianinstitute.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/armenianinstitute.org.uk)                                                               |
 | Art Hub Studios                                  | [`arthub.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/arthub.org.uk)                                                                                     |
 | Art'otel London Hoxton                           | [`artotel.com-hoxton`](https://github.com/clusterflick/data-calendar/releases/latest/download/artotel.com-hoxton)                                                                           |
@@ -363,6 +364,7 @@ is listed below and can be used with the download URL pattern above.
 | Parkside Community Centre                        | [`parksideca.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/parksideca.org.uk)                                                                             |
 | Parlour                                          | [`parlourkensal.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/parlourkensal.com)                                                                             |
 | Peckham Levels                                   | [`peckhamlevels.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/peckhamlevels.org)                                                                             |
+| Peckham Oasis Gallery                            | [`instagram.com-peckhamoasisgallery`](https://github.com/clusterflick/data-calendar/releases/latest/download/instagram.com-peckhamoasisgallery)                                             |
 | Peckham Palms                                    | [`peckhampalms.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/peckhampalms.com)                                                                               |
 | Peckhamplex                                      | [`peckhamplex.london`](https://github.com/clusterflick/data-calendar/releases/latest/download/peckhamplex.london)                                                                           |
 | Pelican House                                    | [`pelicanhouse.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/pelicanhouse.org)                                                                               |
