@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 469 supported venues. The calendar filename for each venue
+There are currently 470 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -235,6 +235,7 @@ is listed below and can be used with the download URL pattern above.
 | Finsbury Park Picturehouse                       | [`picturehouses.com-finsbury-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/picturehouses.com-finsbury-park)                                                 |
 | Firmdale Charlotte Street Hotel                  | [`firmdalehotels.com-charlotte-street`](https://github.com/clusterflick/data-calendar/releases/latest/download/firmdalehotels.com-charlotte-street)                                         |
 | Firmdale Covent Garden Hotel                     | [`firmdalehotels.com-covent-garden`](https://github.com/clusterflick/data-calendar/releases/latest/download/firmdalehotels.com-covent-garden)                                               |
+| Firmdale Ham Yard Hotel                          | [`firmdalehotels.com-ham-yard`](https://github.com/clusterflick/data-calendar/releases/latest/download/firmdalehotels.com-ham-yard)                                                         |
 | Firmdale The Soho Hotel                          | [`firmdalehotels.com-soho`](https://github.com/clusterflick/data-calendar/releases/latest/download/firmdalehotels.com-soho)                                                                 |
 | Folklore                                         | [`folklorehoxton.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/folklorehoxton.co.uk)                                                                       |
 | Fortune Green                                    | [`fortunegreen.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/fortunegreen.org.uk)                                                                         |
