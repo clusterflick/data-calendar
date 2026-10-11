@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 470 supported venues. The calendar filename for each venue
+There are currently 471 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -205,6 +205,7 @@ is listed below and can be used with the download URL pattern above.
 | Ealing Picturehouse                              | [`picturehouses.com-ealing`](https://github.com/clusterflick/data-calendar/releases/latest/download/picturehouses.com-ealing)                                                               |
 | EartH                                            | [`earthackney.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/earthackney.co.uk)                                                                             |
 | East Dulwich Picturehouse & Cafe                 | [`picturehouses.com-east-dulwich`](https://github.com/clusterflick/data-calendar/releases/latest/download/picturehouses.com-east-dulwich)                                                   |
+| EbonyLife Place London                           | [`ebonylifeplacelondon.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/ebonylifeplacelondon.com)                                                               |
 | El Chico's                                       | [`elchicos.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/elchicos.co.uk)                                                                                   |
 | Electric Cinema Portobello                       | [`electriccinema.co.uk-portobello`](https://github.com/clusterflick/data-calendar/releases/latest/download/electriccinema.co.uk-portobello)                                                 |
 | Electric Cinema White City                       | [`electriccinema.co.uk-white-city`](https://github.com/clusterflick/data-calendar/releases/latest/download/electriccinema.co.uk-white-city)                                                 |
