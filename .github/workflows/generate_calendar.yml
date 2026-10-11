@@ -22,7 +22,7 @@ jobs:
       # the id and title the combine stage settles on - so the calendars are
       # built from the same release the website is, not from the transformed
       # data that precedes it.
-      - uses: clusterflick/release-downloader@v3
+      - uses: clusterflick/release-downloader@v4
         with:
           token: ${{ secrets.PAT }}
           repository: "clusterflick/data-combined"
