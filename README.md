@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 472 supported venues. The calendar filename for each venue
+There are currently 473 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -378,6 +378,7 @@ is listed below and can be used with the download URL pattern above.
 | Phonica Records                                  | [`phonicarecords.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/phonicarecords.com)                                                                           |
 | Picturehouse Central                             | [`picturehouses.com-central`](https://github.com/clusterflick/data-calendar/releases/latest/download/picturehouses.com-central)                                                             |
 | Piehouse Co-Op                                   | [`piehousecoop.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/piehousecoop.co.uk)                                                                           |
+| Plaza Camden                                     | [`plazacamden.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/plazacamden.com)                                                                                 |
 | Polish Social and Cultural Association POSK      | [`posk.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/posk.org)                                                                                               |
 | Poppy's Funerals                                 | [`poppysfunerals.co.uk-raynes-park`](https://github.com/clusterflick/data-calendar/releases/latest/download/poppysfunerals.co.uk-raynes-park)                                               |
 | Prince Charles Cinema                            | [`princecharlescinema.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/princecharlescinema.com)                                                                 |
