@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 473 supported venues. The calendar filename for each venue
+There are currently 474 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -304,6 +304,7 @@ is listed below and can be used with the download URL pattern above.
 | Liszt Institute                                  | [`culture.hu-london`](https://github.com/clusterflick/data-calendar/releases/latest/download/culture.hu-london)                                                                             |
 | Little Nan's 2.0                                 | [`littlenans.co.uk-2-0`](https://github.com/clusterflick/data-calendar/releases/latest/download/littlenans.co.uk-2-0)                                                                       |
 | Live At St Giles                                 | [`liveatstgiles.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/liveatstgiles.com)                                                                             |
+| London Action Resource Centre                    | [`larc.noblogs.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/larc.noblogs.org)                                                                               |
 | London Bridge City                               | [`londonbridgecity.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/londonbridgecity.co.uk)                                                                   |
 | London College of Communication                  | [`arts.ac.uk-london-college-of-communication`](https://github.com/clusterflick/data-calendar/releases/latest/download/arts.ac.uk-london-college-of-communication)                           |
 | London Film School                               | [`lfs.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/lfs.org.uk)                                                                                           |
