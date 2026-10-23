@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 475 supported venues. The calendar filename for each venue
+There are currently 477 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -158,6 +158,7 @@ is listed below and can be used with the download URL pattern above.
 | Central Saint Martins                            | [`arts.ac.uk-central-saint-martins`](https://github.com/clusterflick/data-calendar/releases/latest/download/arts.ac.uk-central-saint-martins)                                               |
 | Centre 151                                       | [`centre151.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/centre151.com)                                                                                     |
 | Chadwell Heath Community Centre                  | [`chcc.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/chcc.org.uk)                                                                                         |
+| Chestnuts Community Centre                       | [`bridgerenewaltrust.org.uk-chestnuts-community-centre`](https://github.com/clusterflick/data-calendar/releases/latest/download/bridgerenewaltrust.org.uk-chestnuts-community-centre)       |
 | Christ Church Peckham                            | [`christchurchpeckham.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/christchurchpeckham.org)                                                                 |
 | Christ Church Spitalfields                       | [`spitalfields.church`](https://github.com/clusterflick/data-calendar/releases/latest/download/spitalfields.church)                                                                         |
 | Christ Church Surbiton Hill                      | [`ccsurbiton.org`](https://github.com/clusterflick/data-calendar/releases/latest/download/ccsurbiton.org)                                                                                   |
@@ -438,6 +439,7 @@ is listed below and can be used with the download URL pattern above.
 | Tate Modern                                      | [`tate.org.uk-tate-modern`](https://github.com/clusterflick/data-calendar/releases/latest/download/tate.org.uk-tate-modern)                                                                 |
 | Telegraph Hill Centre                            | [`thcentre.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/thcentre.com)                                                                                       |
 | The 1850                                         | [`stmarys.ac.uk-the-1850`](https://github.com/clusterflick/data-calendar/releases/latest/download/stmarys.ac.uk-the-1850)                                                                   |
+| The All Good Bookshop                            | [`allgoodbookshop.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/allgoodbookshop.co.uk)                                                                     |
 | The Antwerp Arms                                 | [`antwerparms.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/antwerparms.co.uk)                                                                             |
 | The Arzner                                       | [`thearzner.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/thearzner.com)                                                                                     |
 | The Barbican                                     | [`barbican.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/barbican.org.uk)                                                                                 |
