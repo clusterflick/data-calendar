@@ -1,9 +1,10 @@
-Data licence — data-calendar releases
-=====================================
+Data licence — data-calendar feeds
+==================================
 
 The MIT licence in LICENSE covers the code in this repository. It does not
-cover the calendar feeds published in this repository's releases. Those are
-covered by this file.
+cover the calendar feeds this repository publishes, whether fetched from
+https://clusterflick.com/datasets/calendars/<venue-id>.ics or from this
+repository's releases. Those are covered by this file.
 
 The full, readable version of these terms lives at
 https://clusterflick.com/data-licence
@@ -12,8 +13,8 @@ https://clusterflick.com/data-licence
 What is licensed
 ----------------
 
-The ICS feeds published in this repository's releases are made available under
-the Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+The ICS feeds published by this repository are made available under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0):
 
     https://creativecommons.org/licenses/by/4.0/
 
@@ -68,5 +69,7 @@ The feeds are provided as-is. There is no warranty, and no guarantee of
 accuracy, availability or continuity. Releases are published on a best-effort
 daily schedule, and the contents can change without notice.
 
-Releases are hosted by GitHub and subject to GitHub's rate limits:
+The feeds are hosted at https://clusterflick.com/datasets/calendars/, which is
+the address to use. They are also published on this repository's releases,
+which are hosted by GitHub and subject to GitHub's rate limits:
 https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api
