@@ -99,7 +99,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 477 supported venues. The calendar filename for each venue
+There are currently 479 supported venues. The calendar filename for each venue
 is listed below and can be used with the download URL pattern above.
 
 | Venue                                            | Calendar File                                                                                                                                                                               |
@@ -408,8 +408,10 @@ is listed below and can be used with the download URL pattern above.
 | Science Museum                                   | [`sciencemuseum.org.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/sciencemuseum.org.uk)                                                                       |
 | SCRT                                             | [`scrt.onl`](https://github.com/clusterflick/data-calendar/releases/latest/download/scrt.onl)                                                                                               |
 | SET Social                                       | [`setspace.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/setspace.uk)                                                                                         |
+| Sevente                                          | [`sevente.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/sevente.co.uk)                                                                                     |
 | Shai Space                                       | [`shaispace.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/shaispace.com)                                                                                     |
 | Shapes Lewisham                                  | [`shapeslewisham.co.uk`](https://github.com/clusterflick/data-calendar/releases/latest/download/shapeslewisham.co.uk)                                                                       |
+| Shoreditch Arts Club                             | [`shoreditchartsclub.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/shoreditchartsclub.com)                                                                   |
 | Shoreditch Library                               | [`hackney.gov.uk-shoreditch-library`](https://github.com/clusterflick/data-calendar/releases/latest/download/hackney.gov.uk-shoreditch-library)                                             |
 | Signature Brewery                                | [`signaturebrew.co.uk-blackhorseroad`](https://github.com/clusterflick/data-calendar/releases/latest/download/signaturebrew.co.uk-blackhorseroad)                                           |
 | Siobhan Davies Studios                           | [`siobhandavies.com`](https://github.com/clusterflick/data-calendar/releases/latest/download/siobhandavies.com)                                                                             |
