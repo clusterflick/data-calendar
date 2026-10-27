@@ -629,8 +629,8 @@ The workflow requires a GitHub secret:
 
 The code in this repository is licensed under the [MIT licence](LICENSE).
 
-The **calendar feeds are not** — wherever they are fetched from, they
-are licensed separately, under
+The **calendar feeds are not** — wherever they are fetched from, they are
+licensed separately, under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with a carve-out for
 the third-party metadata they carry. If you use them, credit Clusterflick:
 
