@@ -1,5 +1,13 @@
 # data-calendar
 
+> **[Clusterflick](https://clusterflick.com)** is a free, open-source site
+> listing every film showing in London, from 450+ venues in one search.
+>
+> This repository is the stage of the data pipeline that turns the listings into
+> calendar feeds, one per venue, that anyone can subscribe to. See the
+> [Clusterflick organisation](https://github.com/clusterflick) for how the
+> pieces fit together.
+
 This repository contains the automated workflow for generating calendar feeds
 from cinema data for the Clusterflick project.
 
