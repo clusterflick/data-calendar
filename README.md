@@ -116,7 +116,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 488 supported venues. Each venue's id is listed below,
+There are currently 499 supported venues. Each venue's id is listed below,
 linked to its calendar feed.
 
 | Venue                                            | Calendar File                                                                                                                                                        |
@@ -158,6 +158,7 @@ linked to its calendar feed.
 | Bloomsbury Central Baptist Church                | [`bloomsbury.org.uk`](https://clusterflick.com/datasets/calendars/bloomsbury.org.uk.ics)                                                                             |
 | Blown Away Studios                               | [`instagram.com-blown-away-studios`](https://clusterflick.com/datasets/calendars/instagram.com-blown-away-studios.ics)                                               |
 | Bojangles Brasserie                              | [`wearebojangles.com`](https://clusterflick.com/datasets/calendars/wearebojangles.com.ics)                                                                           |
+| Bonny Downs Community Association                | [`bonnydowns.org`](https://clusterflick.com/datasets/calendars/bonnydowns.org.ics)                                                                                   |
 | Boxpark Wembley                                  | [`boxpark.co.uk-wembley`](https://clusterflick.com/datasets/calendars/boxpark.co.uk-wembley.ics)                                                                     |
 | Brenchley Gardens Community Centre               | [`brenchleygardens.co.uk`](https://clusterflick.com/datasets/calendars/brenchleygardens.co.uk.ics)                                                                   |
 | Buchan Tenants and Residents Hall                | [`instagram.com-buchanhall`](https://clusterflick.com/datasets/calendars/instagram.com-buchanhall.ics)                                                               |
@@ -177,6 +178,7 @@ linked to its calendar feed.
 | Central Saint Martins                            | [`arts.ac.uk-central-saint-martins`](https://clusterflick.com/datasets/calendars/arts.ac.uk-central-saint-martins.ics)                                               |
 | Centre 151                                       | [`centre151.com`](https://clusterflick.com/datasets/calendars/centre151.com.ics)                                                                                     |
 | Chadwell Heath Community Centre                  | [`chcc.org.uk`](https://clusterflick.com/datasets/calendars/chcc.org.uk.ics)                                                                                         |
+| Chats Palace                                     | [`chatspalace.com`](https://clusterflick.com/datasets/calendars/chatspalace.com.ics)                                                                                 |
 | Chestnuts Community Centre                       | [`bridgerenewaltrust.org.uk-chestnuts-community-centre`](https://clusterflick.com/datasets/calendars/bridgerenewaltrust.org.uk-chestnuts-community-centre.ics)       |
 | Christ Church Peckham                            | [`christchurchpeckham.org`](https://clusterflick.com/datasets/calendars/christchurchpeckham.org.ics)                                                                 |
 | Christ Church Spitalfields                       | [`spitalfields.church`](https://clusterflick.com/datasets/calendars/spitalfields.church.ics)                                                                         |
@@ -262,6 +264,7 @@ linked to its calendar feed.
 | Firmdale The Soho Hotel                          | [`firmdalehotels.com-soho`](https://clusterflick.com/datasets/calendars/firmdalehotels.com-soho.ics)                                                                 |
 | Folklore                                         | [`folklorehoxton.co.uk`](https://clusterflick.com/datasets/calendars/folklorehoxton.co.uk.ics)                                                                       |
 | Fortune Green                                    | [`fortunegreen.org.uk`](https://clusterflick.com/datasets/calendars/fortunegreen.org.uk.ics)                                                                         |
+| Four Corners                                     | [`fourcornersfilm.co.uk`](https://clusterflick.com/datasets/calendars/fourcornersfilm.co.uk.ics)                                                                     |
 | Frequency Coffee Camden Passage                  | [`frequencycoffee.com-camden-passage`](https://clusterflick.com/datasets/calendars/frequencycoffee.com-camden-passage.ics)                                           |
 | Freud Museum London                              | [`freud.org.uk`](https://clusterflick.com/datasets/calendars/freud.org.uk.ics)                                                                                       |
 | Frontline Club                                   | [`frontlineclub.com`](https://clusterflick.com/datasets/calendars/frontlineclub.com.ics)                                                                             |
@@ -413,6 +416,7 @@ linked to its calendar feed.
 | Raynes Park Community Church                     | [`salvationarmy.org.uk-raynes-park`](https://clusterflick.com/datasets/calendars/salvationarmy.org.uk-raynes-park.ics)                                               |
 | RCA Battersea                                    | [`rca.ac.uk-battersea`](https://clusterflick.com/datasets/calendars/rca.ac.uk-battersea.ics)                                                                         |
 | RCA Kensington                                   | [`rca.ac.uk-kensington`](https://clusterflick.com/datasets/calendars/rca.ac.uk-kensington.ics)                                                                       |
+| Red Door Studios                                 | [`throughthereddoor.org`](https://clusterflick.com/datasets/calendars/throughthereddoor.org.ics)                                                                     |
 | Reference Point                                  | [`reference-point.uk`](https://clusterflick.com/datasets/calendars/reference-point.uk.ics)                                                                           |
 | Regent Street Cinema                             | [`regentstreetcinema.com`](https://clusterflick.com/datasets/calendars/regentstreetcinema.com.ics)                                                                   |
 | Rhizomatic!                                      | [`instagram.com-rhizomatic.ldn`](https://clusterflick.com/datasets/calendars/instagram.com-rhizomatic.ldn.ics)                                                       |
@@ -430,6 +434,7 @@ linked to its calendar feed.
 | Sands Films Cinema                               | [`sandsfilms.co.uk`](https://clusterflick.com/datasets/calendars/sandsfilms.co.uk.ics)                                                                               |
 | Science Museum                                   | [`sciencemuseum.org.uk`](https://clusterflick.com/datasets/calendars/sciencemuseum.org.uk.ics)                                                                       |
 | SCRT                                             | [`scrt.onl`](https://clusterflick.com/datasets/calendars/scrt.onl.ics)                                                                                               |
+| Second Home Spitalfields                         | [`secondhome.io-spitalfields`](https://clusterflick.com/datasets/calendars/secondhome.io-spitalfields.ics)                                                           |
 | SET Social                                       | [`setspace.uk`](https://clusterflick.com/datasets/calendars/setspace.uk.ics)                                                                                         |
 | Sevente                                          | [`sevente.co.uk`](https://clusterflick.com/datasets/calendars/sevente.co.uk.ics)                                                                                     |
 | Shai Space                                       | [`shaispace.com`](https://clusterflick.com/datasets/calendars/shaispace.com.ics)                                                                                     |
@@ -443,6 +448,7 @@ linked to its calendar feed.
 | Southbank Centre                                 | [`southbankcentre.co.uk`](https://clusterflick.com/datasets/calendars/southbankcentre.co.uk.ics)                                                                     |
 | Spanners                                         | [`spanners.club`](https://clusterflick.com/datasets/calendars/spanners.club.ics)                                                                                     |
 | St Barnabas Church                               | [`stbarnabas-southfields.org.uk`](https://clusterflick.com/datasets/calendars/stbarnabas-southfields.org.uk.ics)                                                     |
+| St Francis at The Engine Room                    | [`engineroom.org.uk`](https://clusterflick.com/datasets/calendars/engineroom.org.uk.ics)                                                                             |
 | St Gabriel's Church Aldersbrook                  | [`stgabrielsaldersbrook.org.uk`](https://clusterflick.com/datasets/calendars/stgabrielsaldersbrook.org.uk.ics)                                                       |
 | St George's Garrison Church                      | [`stgeorgeswoolwich.org`](https://clusterflick.com/datasets/calendars/stgeorgeswoolwich.org.ics)                                                                     |
 | St Lawrence Jewry                                | [`stlawrencejewry.org.uk`](https://clusterflick.com/datasets/calendars/stlawrencejewry.org.uk.ics)                                                                   |
@@ -468,9 +474,11 @@ linked to its calendar feed.
 | The 1850                                         | [`stmarys.ac.uk-the-1850`](https://clusterflick.com/datasets/calendars/stmarys.ac.uk-the-1850.ics)                                                                   |
 | The All Good Bookshop                            | [`allgoodbookshop.co.uk`](https://clusterflick.com/datasets/calendars/allgoodbookshop.co.uk.ics)                                                                     |
 | The Antwerp Arms                                 | [`antwerparms.co.uk`](https://clusterflick.com/datasets/calendars/antwerparms.co.uk.ics)                                                                             |
+| The Art House by Acrylicize                      | [`thearthouse.live`](https://clusterflick.com/datasets/calendars/thearthouse.live.ics)                                                                               |
 | The Arzner                                       | [`thearzner.com`](https://clusterflick.com/datasets/calendars/thearzner.com.ics)                                                                                     |
 | The Barbican                                     | [`barbican.org.uk`](https://clusterflick.com/datasets/calendars/barbican.org.uk.ics)                                                                                 |
 | The Bath House                                   | [`thebathhouse.co`](https://clusterflick.com/datasets/calendars/thebathhouse.co.ics)                                                                                 |
+| The Bear Church                                  | [`thebear.tv`](https://clusterflick.com/datasets/calendars/thebear.tv.ics)                                                                                           |
 | The Bedford                                      | [`thebedford.com`](https://clusterflick.com/datasets/calendars/thebedford.com.ics)                                                                                   |
 | The Beehive Pub                                  | [`beehiven17.com`](https://clusterflick.com/datasets/calendars/beehiven17.com.ics)                                                                                   |
 | The Bill Murray                                  | [`angelcomedy.co.uk-bill-murray`](https://clusterflick.com/datasets/calendars/angelcomedy.co.uk-bill-murray.ics)                                                     |
@@ -537,6 +545,7 @@ linked to its calendar feed.
 | The Olympic Cinema                               | [`olympiccinema.com`](https://clusterflick.com/datasets/calendars/olympiccinema.com.ics)                                                                             |
 | The Others                                       | [`theothers.uk.com`](https://clusterflick.com/datasets/calendars/theothers.uk.com.ics)                                                                               |
 | The People's Letters Bookshop                    | [`peoplesletters.org`](https://clusterflick.com/datasets/calendars/peoplesletters.org.ics)                                                                           |
+| The Portico                                      | [`theportico.uk`](https://clusterflick.com/datasets/calendars/theportico.uk.ics)                                                                                     |
 | The Private Cinema                               | [`bulgarihotels.com`](https://clusterflick.com/datasets/calendars/bulgarihotels.com.ics)                                                                             |
 | The Refinery Citypoint                           | [`drakeandmorgan.co.uk-the-refinery-citypoint`](https://clusterflick.com/datasets/calendars/drakeandmorgan.co.uk-the-refinery-citypoint.ics)                         |
 | The Ritzy Picturehouse                           | [`picturehouses.com-the-ritzy`](https://clusterflick.com/datasets/calendars/picturehouses.com-the-ritzy.ics)                                                         |
@@ -596,6 +605,8 @@ linked to its calendar feed.
 | W London                                         | [`marriott.com-w-london`](https://clusterflick.com/datasets/calendars/marriott.com-w-london.ics)                                                                     |
 | Waltham Forest Town Hall                         | [`walthamforest.gov.uk`](https://clusterflick.com/datasets/calendars/walthamforest.gov.uk.ics)                                                                       |
 | Walthamstow Trades Hall                          | [`walthamstowtradeshall.com`](https://clusterflick.com/datasets/calendars/walthamstowtradeshall.com.ics)                                                             |
+| Walworth Living Room                             | [`walworthlivingroom.org`](https://clusterflick.com/datasets/calendars/walworthlivingroom.org.ics)                                                                   |
+| Wapping Powerhouse                               | [`wappingpowerhouse.org`](https://clusterflick.com/datasets/calendars/wappingpowerhouse.org.ics)                                                                     |
 | Waterhouse Hall Theatre                          | [`winchmorehillurc.co.uk`](https://clusterflick.com/datasets/calendars/winchmorehillurc.co.uk.ics)                                                                   |
 | Watson's General Telegraph                       | [`watsonstelegraph.pub`](https://clusterflick.com/datasets/calendars/watsonstelegraph.pub.ics)                                                                       |
 | West Norwood Library & Picturehouse              | [`picturehouses.com-west-norwood`](https://clusterflick.com/datasets/calendars/picturehouses.com-west-norwood.ics)                                                   |
