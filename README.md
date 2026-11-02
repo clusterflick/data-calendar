@@ -116,7 +116,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 499 supported venues. Each venue's id is listed below,
+There are currently 504 supported venues. Each venue's id is listed below,
 linked to its calendar feed.
 
 | Venue                                            | Calendar File                                                                                                                                                        |
@@ -353,10 +353,12 @@ linked to its calendar feed.
 | Metroland Studios                                | [`metrolandcultures.com`](https://clusterflick.com/datasets/calendars/metrolandcultures.com.ics)                                                                     |
 | Minet Library                                    | [`lambeth.gov.uk-minet-library`](https://clusterflick.com/datasets/calendars/lambeth.gov.uk-minet-library.ics)                                                       |
 | Morland Community Hall                           | [`hackney.gov.uk-morland-community-hall`](https://clusterflick.com/datasets/calendars/hackney.gov.uk-morland-community-hall.ics)                                     |
+| Mosaic Rooms                                     | [`mosaicrooms.org`](https://clusterflick.com/datasets/calendars/mosaicrooms.org.ics)                                                                                 |
 | MOTH Club                                        | [`mothclub.co.uk`](https://clusterflick.com/datasets/calendars/mothclub.co.uk.ics)                                                                                   |
 | Mountview Academy of Theatre Arts                | [`mountview.org.uk`](https://clusterflick.com/datasets/calendars/mountview.org.uk.ics)                                                                               |
 | Moylett's                                        | [`moyletts.co.uk`](https://clusterflick.com/datasets/calendars/moyletts.co.uk.ics)                                                                                   |
 | Museum of the Home                               | [`museumofthehome.org.uk`](https://clusterflick.com/datasets/calendars/museumofthehome.org.uk.ics)                                                                   |
+| Museum of Youth Culture                          | [`museumofyouthculture.com`](https://clusterflick.com/datasets/calendars/museumofyouthculture.com.ics)                                                               |
 | Muswell Hill Library                             | [`haringey.gov.uk-muswell-hill-library`](https://clusterflick.com/datasets/calendars/haringey.gov.uk-muswell-hill-library.ics)                                       |
 | My Heathway                                      | [`myheathway.com`](https://clusterflick.com/datasets/calendars/myheathway.com.ics)                                                                                   |
 | Nell of Old Drury                                | [`nellofolddrury.co.uk`](https://clusterflick.com/datasets/calendars/nellofolddrury.co.uk.ics)                                                                       |
@@ -409,6 +411,9 @@ linked to its calendar feed.
 | Plaza Camden                                     | [`plazacamden.com`](https://clusterflick.com/datasets/calendars/plazacamden.com.ics)                                                                                 |
 | Polish Social and Cultural Association POSK      | [`posk.org`](https://clusterflick.com/datasets/calendars/posk.org.ics)                                                                                               |
 | Poppy's Funerals                                 | [`poppysfunerals.co.uk-raynes-park`](https://clusterflick.com/datasets/calendars/poppysfunerals.co.uk-raynes-park.ics)                                               |
+| Pretty Decent Blackhorse Road                    | [`prettydecentbeer.co-blackhorse-road`](https://clusterflick.com/datasets/calendars/prettydecentbeer.co-blackhorse-road.ics)                                         |
+| Pretty Decent Forest Gate                        | [`prettydecentbeer.co-forest-gate`](https://clusterflick.com/datasets/calendars/prettydecentbeer.co-forest-gate.ics)                                                 |
+| Pretty Decent Victoria Park                      | [`prettydecentbeer.co-victoria-park`](https://clusterflick.com/datasets/calendars/prettydecentbeer.co-victoria-park.ics)                                             |
 | Prince Charles Cinema                            | [`princecharlescinema.com`](https://clusterflick.com/datasets/calendars/princecharlescinema.com.ics)                                                                 |
 | Prince of Peckham                                | [`princeofpeckham.co.uk`](https://clusterflick.com/datasets/calendars/princeofpeckham.co.uk.ics)                                                                     |
 | Proposition Bethnal Green                        | [`propositionstudios.com`](https://clusterflick.com/datasets/calendars/propositionstudios.com.ics)                                                                   |
