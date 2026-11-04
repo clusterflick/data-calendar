@@ -116,7 +116,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 505 supported venues. Each venue's id is listed below,
+There are currently 506 supported venues. Each venue's id is listed below,
 linked to its calendar feed.
 
 | Venue                                            | Calendar File                                                                                                                                                        |
@@ -535,6 +535,7 @@ linked to its calendar feed.
 | The Leather Bottle                               | [`greeneking.co.uk-leather-bottle`](https://clusterflick.com/datasets/calendars/greeneking.co.uk-leather-bottle.ics)                                                 |
 | The Lexi Cinema                                  | [`thelexicinema.co.uk`](https://clusterflick.com/datasets/calendars/thelexicinema.co.uk.ics)                                                                         |
 | The Leyton Engineer                              | [`theleytonengineer.co.uk`](https://clusterflick.com/datasets/calendars/theleytonengineer.co.uk.ics)                                                                 |
+| The Liberation Centre                            | [`theliberationcentre.com`](https://clusterflick.com/datasets/calendars/theliberationcentre.com.ics)                                                                 |
 | The London Archives                              | [`thelondonarchives.org`](https://clusterflick.com/datasets/calendars/thelondonarchives.org.ics)                                                                     |
 | The London Art Bar                               | [`londonartbar.com`](https://clusterflick.com/datasets/calendars/londonartbar.com.ics)                                                                               |
 | The Mall Tavern                                  | [`themalltavern.com`](https://clusterflick.com/datasets/calendars/themalltavern.com.ics)                                                                             |
