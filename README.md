@@ -116,7 +116,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 506 supported venues. Each venue's id is listed below,
+There are currently 511 supported venues. Each venue's id is listed below,
 linked to its calendar feed.
 
 | Venue                                            | Calendar File                                                                                                                                                        |
@@ -230,7 +230,9 @@ linked to its calendar feed.
 | Ealing Picturehouse                              | [`picturehouses.com-ealing`](https://clusterflick.com/datasets/calendars/picturehouses.com-ealing.ics)                                                               |
 | EartH                                            | [`earthackney.co.uk`](https://clusterflick.com/datasets/calendars/earthackney.co.uk.ics)                                                                             |
 | East Dulwich Picturehouse & Cafe                 | [`picturehouses.com-east-dulwich`](https://clusterflick.com/datasets/calendars/picturehouses.com-east-dulwich.ics)                                                   |
+| Eat the Sunshine . Down the Sun                  | [`instagram.com-etsdts_`](https://clusterflick.com/datasets/calendars/instagram.com-etsdts_.ics)                                                                     |
 | EbonyLife Place London                           | [`ebonylifeplacelondon.com`](https://clusterflick.com/datasets/calendars/ebonylifeplacelondon.com.ics)                                                               |
+| Edami                                            | [`instagram.com-edamibakery`](https://clusterflick.com/datasets/calendars/instagram.com-edamibakery.ics)                                                             |
 | El Chico's                                       | [`elchicos.co.uk`](https://clusterflick.com/datasets/calendars/elchicos.co.uk.ics)                                                                                   |
 | Electric Cinema Portobello                       | [`electriccinema.co.uk-portobello`](https://clusterflick.com/datasets/calendars/electriccinema.co.uk-portobello.ics)                                                 |
 | Electric Cinema White City                       | [`electriccinema.co.uk-white-city`](https://clusterflick.com/datasets/calendars/electriccinema.co.uk-white-city.ics)                                                 |
@@ -255,6 +257,7 @@ linked to its calendar feed.
 | Everyman on the Canal at King's Cross            | [`everymancinema.com-everyman-on-the-canal-at-kings-cross`](https://clusterflick.com/datasets/calendars/everymancinema.com-everyman-on-the-canal-at-kings-cross.ics) |
 | Everyman Screen on the Green                     | [`everymancinema.com-screen-on-the-green`](https://clusterflick.com/datasets/calendars/everymancinema.com-screen-on-the-green.ics)                                   |
 | Everyman Stratford International                 | [`everymancinema.com-stratford-international`](https://clusterflick.com/datasets/calendars/everymancinema.com-stratford-international.ics)                           |
+| Farr's Dalston                                   | [`farrs.pub`](https://clusterflick.com/datasets/calendars/farrs.pub.ics)                                                                                             |
 | Feltham Park                                     | [`hounslow.gov.uk-feltham-park`](https://clusterflick.com/datasets/calendars/hounslow.gov.uk-feltham-park.ics)                                                       |
 | Fen Court                                        | [`fen-court.com`](https://clusterflick.com/datasets/calendars/fen-court.com.ics)                                                                                     |
 | Finch Community Cinema                           | [`finchcafe.co.uk`](https://clusterflick.com/datasets/calendars/finchcafe.co.uk.ics)                                                                                 |
@@ -366,6 +369,7 @@ linked to its calendar feed.
 | New Cross Inn                                    | [`newcrossinn.com`](https://clusterflick.com/datasets/calendars/newcrossinn.com.ics)                                                                                 |
 | New Malden Library                               | [`kingston.gov.uk-new-malden-library`](https://clusterflick.com/datasets/calendars/kingston.gov.uk-new-malden-library.ics)                                           |
 | Newington Green Meeting House                    | [`newingtongreenmeetinghouse.org.uk`](https://clusterflick.com/datasets/calendars/newingtongreenmeetinghouse.org.uk.ics)                                             |
+| Norrøna Flagship Store London                    | [`norrona.com-london`](https://clusterflick.com/datasets/calendars/norrona.com-london.ics)                                                                           |
 | North Kensington Library                         | [`rbkc.gov.uk-north-kensington-library`](https://clusterflick.com/datasets/calendars/rbkc.gov.uk-north-kensington-library.ics)                                       |
 | not/nowhere                                      | [`not-nowhere.org`](https://clusterflick.com/datasets/calendars/not-nowhere.org.ics)                                                                                 |
 | Nunhead Cemetery                                 | [`fonc.org.uk`](https://clusterflick.com/datasets/calendars/fonc.org.uk.ics)                                                                                         |
@@ -569,6 +573,7 @@ linked to its calendar feed.
 | The Vine                                         | [`thevinenw5.co.uk`](https://clusterflick.com/datasets/calendars/thevinenw5.co.uk.ics)                                                                               |
 | The Wanstead Curtain                             | [`wansteadfringe.org-the-wanstead-curtain`](https://clusterflick.com/datasets/calendars/wansteadfringe.org-the-wanstead-curtain.ics)                                 |
 | The Well Walk Theatre                            | [`thewellwalktheatre.com`](https://clusterflick.com/datasets/calendars/thewellwalktheatre.com.ics)                                                                   |
+| The White Hart                                   | [`whitehartsouthwark.co.uk`](https://clusterflick.com/datasets/calendars/whitehartsouthwark.co.uk.ics)                                                               |
 | The White Lion Pub                               | [`whitelionsw16.co.uk`](https://clusterflick.com/datasets/calendars/whitelionsw16.co.uk.ics)                                                                         |
 | The Wiener Holocaust Library                     | [`wienerholocaustlibrary.org`](https://clusterflick.com/datasets/calendars/wienerholocaustlibrary.org.ics)                                                           |
 | The Wilds at Barking Riverside                   | [`thewildsbarkingriverside.london`](https://clusterflick.com/datasets/calendars/thewildsbarkingriverside.london.ics)                                                 |
