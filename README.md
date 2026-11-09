@@ -116,7 +116,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 511 supported venues. Each venue's id is listed below,
+There are currently 512 supported venues. Each venue's id is listed below,
 linked to its calendar feed.
 
 | Venue                                            | Calendar File                                                                                                                                                        |
@@ -284,6 +284,7 @@ linked to its calendar feed.
 | Greener and Cleaner                              | [`greenerandcleaner.co.uk`](https://clusterflick.com/datasets/calendars/greenerandcleaner.co.uk.ics)                                                                 |
 | Greenford Quay                                   | [`greenfordquay.com`](https://clusterflick.com/datasets/calendars/greenfordquay.com.ics)                                                                             |
 | Greenwich Picturehouse                           | [`picturehouses.com-greenwich`](https://clusterflick.com/datasets/calendars/picturehouses.com-greenwich.ics)                                                         |
+| Grosvenor Chapel                                 | [`grosvenorchapel.org.uk`](https://clusterflick.com/datasets/calendars/grosvenorchapel.org.uk.ics)                                                                   |
 | Gunnersbury Park Museum                          | [`visitgunnersbury.org`](https://clusterflick.com/datasets/calendars/visitgunnersbury.org.ics)                                                                       |
 | Hackney Picturehouse                             | [`picturehouses.com-hackney`](https://clusterflick.com/datasets/calendars/picturehouses.com-hackney.ics)                                                             |
 | Hackney Showroom                                 | [`hackneyshowroom.com`](https://clusterflick.com/datasets/calendars/hackneyshowroom.com.ics)                                                                         |
