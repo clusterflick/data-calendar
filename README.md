@@ -116,7 +116,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 512 supported venues. Each venue's id is listed below,
+There are currently 514 supported venues. Each venue's id is listed below,
 linked to its calendar feed.
 
 | Venue                                            | Calendar File                                                                                                                                                        |
@@ -168,6 +168,7 @@ linked to its calendar feed.
 | Cadogan Hall                                     | [`cadoganhall.com`](https://clusterflick.com/datasets/calendars/cadoganhall.com.ics)                                                                                 |
 | Cafe OTO                                         | [`cafeoto.co.uk`](https://clusterflick.com/datasets/calendars/cafeoto.co.uk.ics)                                                                                     |
 | Caledonian Park Clock Tower                      | [`callypark.london`](https://clusterflick.com/datasets/calendars/callypark.london.ics)                                                                               |
+| Calouste Gulbenkian Foundation                   | [`gulbenkian.pt-uk-branch`](https://clusterflick.com/datasets/calendars/gulbenkian.pt-uk-branch.ics)                                                                 |
 | Camden Town Hall                                 | [`spaces.townhall.co.uk`](https://clusterflick.com/datasets/calendars/spaces.townhall.co.uk.ics)                                                                     |
 | Camouflage Cafe                                  | [`camouflagecafe.co.uk`](https://clusterflick.com/datasets/calendars/camouflagecafe.co.uk.ics)                                                                       |
 | Canada Water Library                             | [`southwark.gov.uk-canada-water-library`](https://clusterflick.com/datasets/calendars/southwark.gov.uk-canada-water-library.ics)                                     |
@@ -288,6 +289,7 @@ linked to its calendar feed.
 | Gunnersbury Park Museum                          | [`visitgunnersbury.org`](https://clusterflick.com/datasets/calendars/visitgunnersbury.org.ics)                                                                       |
 | Hackney Picturehouse                             | [`picturehouses.com-hackney`](https://clusterflick.com/datasets/calendars/picturehouses.com-hackney.ics)                                                             |
 | Hackney Showroom                                 | [`hackneyshowroom.com`](https://clusterflick.com/datasets/calendars/hackneyshowroom.com.ics)                                                                         |
+| Haggerston Community Centre                      | [`hackney.gov.uk-haggerston-community-centre`](https://clusterflick.com/datasets/calendars/hackney.gov.uk-haggerston-community-centre.ics)                           |
 | Harris Institute of Teaching and Leadership      | [`harrisinstitute.org.uk`](https://clusterflick.com/datasets/calendars/harrisinstitute.org.uk.ics)                                                                   |
 | Hart Shoreditch Hotel                            | [`hartshoreditch.com`](https://clusterflick.com/datasets/calendars/hartshoreditch.com.ics)                                                                           |
 | Hartfield Hub                                    | [`hartfieldhub.com`](https://clusterflick.com/datasets/calendars/hartfieldhub.com.ics)                                                                               |
