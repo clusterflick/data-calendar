@@ -116,7 +116,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 517 supported venues. Each venue's id is listed below,
+There are currently 518 supported venues. Each venue's id is listed below,
 linked to its calendar feed.
 
 | Venue                                            | Calendar File                                                                                                                                                        |
@@ -435,6 +435,7 @@ linked to its calendar feed.
 | Regent Street Cinema                             | [`regentstreetcinema.com`](https://clusterflick.com/datasets/calendars/regentstreetcinema.com.ics)                                                                   |
 | Rhizomatic!                                      | [`instagram.com-rhizomatic.ldn`](https://clusterflick.com/datasets/calendars/instagram.com-rhizomatic.ldn.ics)                                                       |
 | Rich Mix                                         | [`richmix.org.uk`](https://clusterflick.com/datasets/calendars/richmix.org.uk.ics)                                                                                   |
+| Ridley Road Social Club                          | [`instagram.com-ridleyroadsocialclub`](https://clusterflick.com/datasets/calendars/instagram.com-ridleyroadsocialclub.ics)                                           |
 | Rio Cinema                                       | [`riocinema.org.uk`](https://clusterflick.com/datasets/calendars/riocinema.org.uk.ics)                                                                               |
 | Riverside Studios                                | [`riversidestudios.co.uk`](https://clusterflick.com/datasets/calendars/riversidestudios.co.uk.ics)                                                                   |
 | Rivoli Ballroom                                  | [`rivoliballroom.com`](https://clusterflick.com/datasets/calendars/rivoliballroom.com.ics)                                                                           |
