@@ -116,7 +116,7 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 519 supported venues. Each venue's id is listed below,
+There are currently 520 supported venues. Each venue's id is listed below,
 linked to its calendar feed.
 
 | Venue                                            | Calendar File                                                                                                                                                        |
@@ -467,6 +467,7 @@ linked to its calendar feed.
 | St Francis at The Engine Room                    | [`engineroom.org.uk`](https://clusterflick.com/datasets/calendars/engineroom.org.uk.ics)                                                                             |
 | St Gabriel's Church Aldersbrook                  | [`stgabrielsaldersbrook.org.uk`](https://clusterflick.com/datasets/calendars/stgabrielsaldersbrook.org.uk.ics)                                                       |
 | St George's Garrison Church                      | [`stgeorgeswoolwich.org`](https://clusterflick.com/datasets/calendars/stgeorgeswoolwich.org.ics)                                                                     |
+| St John the Evangelist, Shirley                  | [`stjohnsshirley.org.uk`](https://clusterflick.com/datasets/calendars/stjohnsshirley.org.uk.ics)                                                                     |
 | St John's Waterloo                               | [`stjohnswaterloo.org`](https://clusterflick.com/datasets/calendars/stjohnswaterloo.org.ics)                                                                         |
 | St Lawrence Jewry                                | [`stlawrencejewry.org.uk`](https://clusterflick.com/datasets/calendars/stlawrencejewry.org.uk.ics)                                                                   |
 | St Leonard's Church Hall                         | [`stleonard-streatham.org.uk`](https://clusterflick.com/datasets/calendars/stleonard-streatham.org.uk.ics)                                                           |
