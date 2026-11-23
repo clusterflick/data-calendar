@@ -117,12 +117,13 @@ URL", and paste the venue calendar URL.
 
 ## Supported Venues
 
-There are currently 520 supported venues. Each venue's id is listed below,
+There are currently 523 supported venues. Each venue's id is listed below,
 linked to its calendar feed.
 
 | Venue                                            | Calendar File                                                                                                                                                        |
 | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 229                                              | [`229.london`](https://clusterflick.com/datasets/calendars/229.london.ics)                                                                                           |
+| 33's The Old Grocery Store                       | [`thirtythrees.co.uk`](https://clusterflick.com/datasets/calendars/thirtythrees.co.uk.ics)                                                                           |
 | A House for Artists                              | [`instagram.com-ahouseforartists`](https://clusterflick.com/datasets/calendars/instagram.com-ahouseforartists.ics)                                                   |
 | ActOne Cinema                                    | [`actonecinema.co.uk`](https://clusterflick.com/datasets/calendars/actonecinema.co.uk.ics)                                                                           |
 | Adventure Cinema Kew Gardens                     | [`adventurecinema.co.uk-kew-gardens`](https://clusterflick.com/datasets/calendars/adventurecinema.co.uk-kew-gardens.ics)                                             |
@@ -373,6 +374,7 @@ linked to its calendar feed.
 | Nell of Old Drury                                | [`nellofolddrury.co.uk`](https://clusterflick.com/datasets/calendars/nellofolddrury.co.uk.ics)                                                                       |
 | New Cross Inn                                    | [`newcrossinn.com`](https://clusterflick.com/datasets/calendars/newcrossinn.com.ics)                                                                                 |
 | New Malden Library                               | [`kingston.gov.uk-new-malden-library`](https://clusterflick.com/datasets/calendars/kingston.gov.uk-new-malden-library.ics)                                           |
+| New River Studios                                | [`newriverstudios.com`](https://clusterflick.com/datasets/calendars/newriverstudios.com.ics)                                                                         |
 | Newington Green Meeting House                    | [`newingtongreenmeetinghouse.org.uk`](https://clusterflick.com/datasets/calendars/newingtongreenmeetinghouse.org.uk.ics)                                             |
 | Norrøna Flagship Store London                    | [`norrona.com-london`](https://clusterflick.com/datasets/calendars/norrona.com-london.ics)                                                                           |
 | North Kensington Library                         | [`rbkc.gov.uk-north-kensington-library`](https://clusterflick.com/datasets/calendars/rbkc.gov.uk-north-kensington-library.ics)                                       |
@@ -453,6 +455,7 @@ linked to its calendar feed.
 | SCRT                                             | [`scrt.onl`](https://clusterflick.com/datasets/calendars/scrt.onl.ics)                                                                                               |
 | Second Home Spitalfields                         | [`secondhome.io-spitalfields`](https://clusterflick.com/datasets/calendars/secondhome.io-spitalfields.ics)                                                           |
 | SET Social                                       | [`setspace.uk`](https://clusterflick.com/datasets/calendars/setspace.uk.ics)                                                                                         |
+| Seven Sisters Market                             | [`sevensisters.market`](https://clusterflick.com/datasets/calendars/sevensisters.market.ics)                                                                         |
 | Sevente                                          | [`sevente.co.uk`](https://clusterflick.com/datasets/calendars/sevente.co.uk.ics)                                                                                     |
 | Shai Space                                       | [`shaispace.com`](https://clusterflick.com/datasets/calendars/shaispace.com.ics)                                                                                     |
 | Shapes Lewisham                                  | [`shapeslewisham.co.uk`](https://clusterflick.com/datasets/calendars/shapeslewisham.co.uk.ics)                                                                       |
